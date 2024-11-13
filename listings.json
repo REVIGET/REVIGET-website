@@ -1,0 +1,49 @@
+[
+  {
+    "listing": "/people/lima-karla/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/fast_electron_nano-spectroscopy/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2024_090_strategy_for_direct/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/lima-karla/index.html",
+      "/people/costa-emilyn/index.html"
+    ]
+  },
+  {
+    "listing": "/dmref/publications/index.html",
+    "items": []
+  },
+  {
+    "listing": "/dmref/people/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/2022-08-24-new-pub/index.html"
+    ]
+  },
+  {
+    "listing": "/research/fast_electron_nano-spectroscopy/index.html",
+    "items": [
+      "/publications/2024_090_strategy_for_direct/index.html"
+    ]
+  },
+  {
+    "listing": "/people/costa-emilyn/index.html",
+    "items": []
+  }
+]
