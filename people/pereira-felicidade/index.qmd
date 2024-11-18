@@ -2,11 +2,11 @@
 title: &TITLE Felicidade Mota Pereira
 last: Pereira
 first: Felicidade Mota
-people_group: "bahia"
+people_group: "graduate"
+group: "bahia"
 email: felicidade.pereira@saude.ba.gov.br
 education:
-  - Graduação em Farmácia e Bioquímica
-  - Doutorado em Ciências com ênfase em Biotecnologia em Saúde e Medicina Investigativa (Fiocruz-Bahia)
+  - Graduação em Farmácia e Bioquímica <br> Doutorado em Ciências com ênfase em Biotecnologia em Saúde e Medicina Investigativa (Fiocruz-Bahia)
 subtitle: "Farmacêutica Bioquímica | LACEN-BA"
 description: "Consultora sobre testes laboratoriais do LACEN-BA"
 image: avatar.jpg
@@ -57,9 +57,9 @@ Felicidade é Farmacêutica Bioquímica e doutora em Ciências com ênfase em Bi
 
 <br>
 
-::: 
+:::
 
-## Felicidade's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

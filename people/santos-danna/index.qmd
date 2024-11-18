@@ -2,7 +2,8 @@
 title: &TITLE Danna Karen Corrêa dos Santos
 last: Corrêa dos Santos
 first: Danna Karen
-people_group: "para"
+people_group: "student"
+group: "para"
 email: dannakcsantos@gmail.com
 education:
   - Graduação (em andamento) | Biomedicina, Universidade do Estado do Pará (UEPA)
@@ -26,7 +27,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpg
   links:
     - icon: envelope
       text: Email
@@ -58,7 +59,7 @@ Danna é graduanda do oitavo semestre de Biomedicina pela Universidade do Estado
 
 :::
 
-## Danna Karen's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

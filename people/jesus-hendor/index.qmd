@@ -2,12 +2,11 @@
 title: &TITLE Hendor Neves Ribeiro de Jesus
 last: Ribeiro de Jesus
 first: Hendor Neves
-people_group: "bahia"
+people_group: "graduate"
+group: "bahia"
 email: hendor.jesus@fiocruz.br
 education:
-  - Bacharel em Biotecnologia (Universidade Federal da Bahia)
-  - Mestrado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia)
-  - Doutorado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia)
+  - Bacharel em Biotecnologia (Universidade Federal da Bahia) <br> Mestrado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia) <br> Doutorado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia)
 subtitle: "Pesquisador em Genômica e Bioinformática | Fiocruz"
 description: "Bioinformata no projeto REVIGET"
 image: avatar.jpg
@@ -58,9 +57,9 @@ Hendor é bacharel em Biotecnologia pela Universidade Federal da Bahia, com mest
 
 <br>
 
-::: 
+:::
 
-## Hendor's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

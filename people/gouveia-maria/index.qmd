@@ -2,7 +2,8 @@
 title: &TITLE Maria Isabel Montoril Gouveia
 last: Gouveia
 first: Maria Isabel Montoril
-people_group: "para"
+people_group: "graduate"
+group: "para"
 email: isabelmontoril13@gmail.com
 education:
   - Graduação | Ciências Biológicas, Universidade do Estado do Pará (UEPA)
@@ -59,7 +60,7 @@ Isabel é Graduada em Ciências Biológicas pela Universidade do Estado do Pará
 
 :::
 
-## Maria Isabel's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

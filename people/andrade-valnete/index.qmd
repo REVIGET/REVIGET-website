@@ -4,7 +4,7 @@ last: Andrade
 first: Valnete
 people_group: "para"
 group: "para"
-email: FIXME
+email: "val.holanda@yahoo.com.br"
 education:
   - Farmácia (UFPA) <br> MBA em Gestão de Negócios-Saúde (FGV) <br> Especialista em Biossegurança para Laboratório de Saúde Pública (ENSP-FIOCRUZ) <br> Especialista em Gestão Pública (Centro Universitário Toledo)
 description: "Consultora do estado do Pará sobre testes laboratoriais do LACEN-PA."
@@ -31,7 +31,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:FIXME
+      href: mailto:val.holanda@yahoo.com.br
     - icon: mortarboard
       text: Lattes
       href: http://lattes.cnpq.br/9601521261005314
@@ -45,8 +45,15 @@ about:
 
 Graduação em Farmácia pela Universidade Federal do Pará (1995) com habilitação em Bioquímica. MBA em Gestão de Negócios-Saúde pela Fundação Getúlio Vargas (2017). Especialista em Biossegurança para Laboratório de Saúde Pública pela ENSP-FIOCRUZ (2014). Especialista em Gestão Pública pelo Centro Universitário Toledo (2013). Servidora pública municipal e estadual. Diretora técnica do Laboratório Central do Estado do Pará (LACEN-PA). Tem experiência na área de Gestão Pública, Gestão da Qualidade e Biossegurança e Vigilância Laboratorial, com ênfase em Saúde Pública.
 
+## Education
+{{< meta education >}}
+
+<br>
+
 :::
-## Group Publications
+
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::
+

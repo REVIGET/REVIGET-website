@@ -2,11 +2,11 @@
 title: &TITLE Layana Rufino Ribeiro
 last: Ribeiro
 first: Layana
-people_group: "para"
+people_group: "graduate"
+group: "para"
 email: layanarufinoribeiro@gmail.com
 education:
-  - Graduação | Ciências Biológicas, Universidade do Estado do Pará
-  - Mestrado (em andamento) | Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas
+  - Graduação | Ciências Biológicas, Universidade do Estado do Pará <br> Mestrado (em andamento) | Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas
 subtitle: "Mestranda em Epidemiologia e Vigilância em Saúde e bolsista REVIGET"
 description: "Bolsista REVIGET"
 image: avatar.jpg
@@ -27,7 +27,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpg
   links:
     - icon: envelope
       text: Email
@@ -56,7 +56,7 @@ Layana é graduada em Ciências Biológicas (UEPA) e mestranda pelo Programa de 
 
 :::
 
-## Layana's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

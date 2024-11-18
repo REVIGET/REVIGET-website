@@ -2,7 +2,8 @@ Philip---
 title: &TITLE Philip Noel Suffys
 last: Suffys
 first: Philip Noel
-people_group: "riodejaneiro"
+people_group: "graduate"
+group: "riodejaneiro"
 email: psuffys@gmail.com
 education:
   - Graduação | Biologia, Rijksuniversiteit te Gent (1985) <br> Doutorado | Biologia Molecular, Rijksuniversiteit te Gent (1989)
@@ -57,7 +58,7 @@ Dr. Philip Noel Suffys possui graduação em Biologia pela Rijksuniversiteit te 
 
 :::
 
-## Philip Suffys' Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

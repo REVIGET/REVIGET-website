@@ -2,12 +2,11 @@
 title: &TITLE Thiago Pinto Brasil
 last: Brasil
 first: Thiago Pinto
-people_group: "ceara"
+people_group: "graduate"
+group: "ceara"
 email: theutlys@gmail.com
 education:
-  - Bacharelado | Biomedicina, Centro Universitário Christus (Unichristus)
-  - Especialização | Microbiologia Clínica, Centro Universitário Christus (Unichristus)
-  - Mestrado | Patologia, Faculdade de Medicina, Universidade Federal do Ceará (UFC)
+  - Bacharelado | Biomedicina, Centro Universitário Christus (Unichristus) <br> Especialização | Microbiologia Clínica, Centro Universitário Christus (Unichristus) <br> Mestrado | Patologia, Faculdade de Medicina, Universidade Federal do Ceará (UFC)
 subtitle: "Mestre em Patologia | Universidade Federal do Ceará"
 description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática"
 image: avatar.png
@@ -28,7 +27,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: avatar.png
   links:
     - icon: envelope
       text: Email

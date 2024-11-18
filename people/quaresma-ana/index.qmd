@@ -2,15 +2,14 @@
 title: &TITLE Ana Judith Pires Garcia Quaresma
 last: Quaresma
 first: Ana Judith
-people_group: "para"
-email: ""
+people_group: "graduate"
+grouo: "para"
+email: "anajudithgarcia.iec@gmail.com"
 education:
-  - Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
-  - Graduação | Farmácia, Centro Universitário do Estado do Pará
-  - Especialização | Análises Clínicas com Ênfase no Diagnóstico de Doenças Tropicais, Universidade Federal do Pará
+  - Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará <br> Graduação | Farmácia, Centro Universitário do Estado do Pará <br> Especialização | Análises Clínicas com Ênfase no Diagnóstico de Doenças Tropicais, Universidade Federal do Pará
 subtitle: "Mestre em Biologia Parasitária na Amazônia | Chefe da Seção de Bacteriologia e Micologia do Instituto Evandro Chagas"
 description: "Chefe da Seção de Bacteriologia e Micologia do Instituto Evandro Chagas. Experiência em diagnóstico microbiológico e molecular de doenças bacterianas."
-image: avatar.jpg
+image: avatar.jpeg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -30,6 +29,9 @@ about:
   image-shape: round
   image: avatar.jpeg
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:anajudithgarcia.iec@gmail.com
     - icon: mortarboard
       text: Lattes
       href: http://lattes.cnpq.br/7391683091277629
@@ -48,7 +50,7 @@ Mestre em Biologia Parasitária na Amazônia pela Universidade do Estado do Par�
 
 :::
 
-## Ana Judith's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

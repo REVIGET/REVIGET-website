@@ -2,12 +2,11 @@
 title: &TITLE Tulio de Oliveira
 last: de Oliveira
 first: Tulio
-people_group: "stellenbosch"
+people_group: "graduate"
+group: "stellenbosch"
 email: tulio@sun.ac.za
 education:
-  - Graduação | Ciências Biológicas, Universidade Federal do Rio Grande do Sul (UFRGS)
-  - Mestrado | Nelson R Mandela School of Medicine, África do Sul
-  - Doutorado | Nelson R Mandela School of Medicine, África do Sul
+  - Graduação | Ciências Biológicas, Universidade Federal do Rio Grande do Sul (UFRGS) <br> Mestrado | Nelson R Mandela School of Medicine, África do Sul <br> Doutorado | Nelson R Mandela School of Medicine, África do Sul
 subtitle: "Consultor para Análise e Interpretação de Dados"
 description: "Pesquisador colaborador"
 image: avatar.png
@@ -57,9 +56,9 @@ O Prof. Tulio de Oliveira é diretor do Centre for Epidemic Response and Innovat
 
 <br>
 
-::: 
+:::
 
-## Tulio de Oliveira's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

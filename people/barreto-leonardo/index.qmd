@@ -3,10 +3,10 @@ title: &TITLE Leonardo Bruno Paz Ferreira Barreto
 last: Barreto
 first: Leonardo Bruno Paz Ferreira
 people_group: "riodejaneiro"
+group: "riodejaneiro"
 email: leonardo.barreto@ini.fiocruz.br
 education:
-  - Graduação | Farmácia com Habilitação em Bioquímica: Análises Clínicas, Universidade Federal do Rio de Janeiro (UFRJ)
-  - Mestrado | Pesquisa Clínica em Doenças Infecciosas, Instituto Nacional de Infectologia Evandro Chagas (INI) - FIOCRUZ
+  - Graduação | Farmácia com Habilitação em Bioquímica: Análises Clínicas, Universidade Federal do Rio de Janeiro (UFRJ) <br> Mestrado | Pesquisa Clínica em Doenças Infecciosas, Instituto Nacional de Infectologia Evandro Chagas (INI) - FIOCRUZ
 subtitle: "Tecnologista em Saúde Pública e Especialista em Micobactérias"
 description: ""
 image: avatar.png
@@ -50,9 +50,9 @@ Leonardo Bruno Paz Ferreira Barreto é graduado em Farmácia com Habilitação e
 
 <br>
 
-::: 
+:::
 
-## Leonardo Bruno's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

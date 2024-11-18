@@ -58,7 +58,8 @@ Orientadora de iniciação científica, mestrado, doutorado e pós-doutorado. Po
 <br>
 
 :::
-## Group Publications
+
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

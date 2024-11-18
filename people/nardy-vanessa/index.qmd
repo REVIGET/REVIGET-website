@@ -2,11 +2,11 @@
 title: &TITLE Vanessa Brandão Nardy
 last: Nardy
 first: Vanessa Brandão
-people_group: "bahia"
+people_group: "graduate"
+group: "bahia"
 email: vanessanardy@gmail.com
 education:
-  - Graduação em Ciências Biológicas, Universidade Estadual do Sudoeste da Bahia
-  - Mestrado em Biotecnologia em Saúde e Medicina Investigativa, Fundação Oswaldo Cruz (FIOCRUZ)
+  - Graduação em Ciências Biológicas, Universidade Estadual do Sudoeste da Bahia <br> Mestrado em Biotecnologia em Saúde e Medicina Investigativa, Fundação Oswaldo Cruz (FIOCRUZ)
 subtitle: "Analista Clínica | LACEN-BA"
 description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática no projeto REVIGET"
 image: avatar.jpg
@@ -57,9 +57,10 @@ Vanessa é graduada em Ciências Biológicas pela Universidade Estadual do Sudoe
 
 <br>
 
-::: 
+:::
 
-## Vanessa's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::
+

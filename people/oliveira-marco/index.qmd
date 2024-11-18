@@ -48,8 +48,15 @@ about:
 
 Farmacêutico-Bioquímico pela Universidade Paulista. Mestre em Ciências Farmacêuticas pela Universidade Federal do Amazonas. MBA em Excelência Operacional em Saúde pelo Instituto Israelita Albert Einstein. Black Belt Lean Healthcare pela Masterlean Academy. Farmacêutico Bioquímico concursado da Secretaria de Estado da Saúde SES-AM. Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP.
 
+## Education
+{{< meta education >}}
+
+<br>
+
 :::
-## Group Publications
+
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::
+

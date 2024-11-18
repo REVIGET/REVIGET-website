@@ -2,7 +2,8 @@
 title: &TITLE José Anderson Monteiro Pantoja
 last: Monteiro Pantoja
 first: José Anderson
-people_group: "para"
+people_group: "student"
+group: "para"
 email: monteiropantoja954@gmail.com
 education:
   - Graduação (em andamento) | Ciências Biológicas, Universidade do Estado do Pará (UEPA)
@@ -58,7 +59,8 @@ José é graduando do sexto semestre de Ciências Biológicas pela Universidade 
 
 :::
 
-## José Anderson's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::
+

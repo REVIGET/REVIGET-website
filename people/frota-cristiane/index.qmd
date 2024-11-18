@@ -59,7 +59,7 @@ Cristiane é professora titular da Faculdade de Medicina da Universidade Federal
 
 :::
 
-## Cristiane Cunha Frota's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

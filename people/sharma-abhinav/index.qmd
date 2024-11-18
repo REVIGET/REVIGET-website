@@ -49,7 +49,7 @@ about:
 
 :::{#about}
 
-Abhinav Sharma é um Bioinformático e candidato a PhD na Stellenbosch University, com especialização no desenvolvimento de ferramentas para análise de dados de sequenciamento de *M. tuberculosis* por técnicas de Machine Learning. Ele também é membro ativo das comunidades Nextflow e nf-core, e dedica-se a programas de capacitação em países de baixa e média renda para aprimorar a pesquisa e o diagnóstico.
+Abhinav Sharma é um Bioinformata e candidato a PhD na Stellenbosch University, com especialização no desenvolvimento de ferramentas para análise de dados de sequenciamento de *M. tuberculosis* por técnicas de Machine Learning. Ele também é membro ativo das comunidades Nextflow e nf-core, e dedica-se a programas de capacitação em países de baixa e média renda para aprimorar a pesquisa e o diagnóstico.
 
 ## Education
 {{< meta education >}}
@@ -58,7 +58,7 @@ Abhinav Sharma é um Bioinformático e candidato a PhD na Stellenbosch Universit
 
 :::
 
-## Abhinav Sharma's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

@@ -59,7 +59,7 @@ Carlos é Médico Pneumologista e Tisiologista, Professor Adjunto I na UFPA e Co
 
 :::
 
-## Carlos Augusto's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

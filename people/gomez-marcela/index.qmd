@@ -2,12 +2,11 @@
 title: &TITLE Marcela Kelly Astete Gómez
 last: Astete Gómez
 first: Marcela Kelly
-people_group: "bahia"
+people_group: "graduate"
+group: "bahia"
 email: marcelagomez@fesfsus.ba.gov.br
 education:
-  - Graduação | Biomedicina, Universidade Tiradentes (UNIT), Aracaju, Sergipe (2003)
-  - Especialização | Citogenética Humana, Universidade Católica do Salvador (UCSAL) (2007)
-  - Mestrado | Biotecnologia em Saúde e Medicina Investigativa (PgBSMI), Fundação Oswaldo Cruz (FIOCRUZ-BA) (2011)
+  - Graduação | Biomedicina, Universidade Tiradentes (UNIT), Aracaju, Sergipe (2003) <br> Especialização | Citogenética Humana, Universidade Católica do Salvador (UCSAL) (2007) <br> Mestrado | Biotecnologia em Saúde e Medicina Investigativa (PgBSMI), Fundação Oswaldo Cruz (FIOCRUZ-BA) (2011)
 subtitle: "Especialista em Biologia Molecular e Sequenciamento de Nova Geração"
 description: "Marcela possui mais de 13 anos de experiência em Biologia Molecular, com expertise em sequenciamento de nova geração (NGS). Atuou no Chile, onde trabalhou com plataformas como PGM, Ion GeneStudio S5 (Ion Torrent), Miseq (Illumina) e MinION (Nanopore)."
 image: avatar.png
@@ -57,9 +56,9 @@ Marcela Kelly Astete Gómez é graduada em Biomedicina pela Universidade Tiraden
 
 <br>
 
-::: 
+:::
 
-## Marcela Kelly's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

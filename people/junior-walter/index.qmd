@@ -2,7 +2,8 @@
 title: &TITLE Walter André Junior
 last: Junior
 first: Walter André
-people_group: "amazonas"
+people_group: "graduate"
+group: "amazonas"
 email: lacenam.biomol@gmail.com
 education:
   - Farmácia e Bioquímica (Universidade XYZ) <br> Especializações em Docência no Ensino Superior, Análises Clínicas, Sexologia, Citologia Clínica e Farmácia Hospitalar
@@ -55,7 +56,7 @@ Walter André é graduado em Farmácia e Bioquímica, com especializações em D
 
 :::
 
-## Walter André's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

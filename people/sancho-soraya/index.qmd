@@ -2,16 +2,11 @@
 title: &TITLE Soraya de Oliveira Sancho
 last: Sancho
 first: Soraya de Oliveira
-people_group: "ceara"
+people_group: "graduate"
+group: "ceara"
 email: soraya.sancho@ufc.br
 education:
-  - Graduação | Engenharia de Alimentos, Universidade Federal do Ceará (UFC)
-  - Especialização | Vigilância Sanitária de Alimentos, Universidade Estadual do Ceará (UECE)
-  - Mestrado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
-  - Doutorado | Biotecnologia, Rede Nordeste de Biotecnologia (Renorbio) - UFC
-  - Pós-doutorado | Biotecnologia, Universidade Federal do Ceará (UFC)
-  - Pós-doutorado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
-  - Pós-doutorado | Ciência e Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
+  - Graduação | Engenharia de Alimentos, Universidade Federal do Ceará (UFC) <br> Especialização | Vigilância Sanitária de Alimentos, Universidade Estadual do Ceará (UECE) <br> Mestrado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC) <br> Doutorado | Biotecnologia, Rede Nordeste de Biotecnologia (Renorbio) - UFC <br> Pós-doutorado | Biotecnologia, Universidade Federal do Ceará (UFC) <br> Pós-doutorado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC) <br> Pós-doutorado | Ciência e Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
 subtitle: "Pós-doutora em Biotecnologia | Universidade Federal do Ceará"
 description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática"
 image: avatar.jpg
@@ -32,7 +27,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpg
   links:
     - icon: envelope
       text: Email
@@ -64,7 +59,7 @@ Soraya é pós-doutora em Biotecnologia pela Universidade Federal do Ceará (UFC
 
 :::
 
-## Soraya de Oliveira Sancho's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

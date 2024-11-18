@@ -2,7 +2,8 @@
 title: &TITLE Ingrid Pimentel Silva Gabriel
 last: Gabriel
 first: Ingrid Pimentel Silva
-people_group: "bahia"
+people_group: "graduate"
+group: "bahia"
 email: ingridpsgabriel@gmail.com
 education:
   - Graduação em Biomedicina, União Metropolitana de Educação e Cultura (UNIME)
@@ -50,9 +51,9 @@ Ingrid é biomédica graduada pela União Metropolitana de Educação e Cultura 
 
 <br>
 
-::: 
+:::
 
-## Ingrid's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

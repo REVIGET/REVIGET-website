@@ -2,16 +2,13 @@
 title: &TITLE Alex Brito
 last: Brito
 first: Alex
-people_group: "para"
+people_group: "graduate"
+group: "para"
 email: alexbritosouza@yahoo.com.br
 education:
-  - Doutorado | PPG-BPA-IEC, em andamento
-  - Mestrado | PPG-BPA-IEC
-  - Graduação | Universidade Federal do Pará, 1998
-  - Especialização | Análises Clínicas com Ênfase no Diagnóstico Laboratorial de Doenças Tropicais, UFPA, 2005
-  - Especialização | Gestão de Assistência Farmacêutica, UFSC, 2012
+  - Doutorado em andamento | PPG-BPA-IEC <br> Mestrado | PPG-BPA-IEC <br> Graduação | Universidade Federal do Pará, 1998 <br> Especialização | Análises Clínicas com Ênfase no Diagnóstico Laboratorial de Doenças Tropicais, UFPA, 2005 <br> Especialização | Gestão de Assistência Farmacêutica, UFSC, 2012
 subtitle: "Técnico em sequenciamento e Doutorando"
-description: "Doutorando  e técnico responsável pelo sequenciamento Sanger e pela identificação de MNT na Seção de Bacteriologia do IEC"
+description: "Doutorando e técnico responsável pelo sequenciamento Sanger e pela identificação de MNT na Seção de Bacteriologia do IEC"
 image: avatar.jpg
 listing:
   id: pubs

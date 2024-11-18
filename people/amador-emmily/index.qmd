@@ -59,7 +59,7 @@ Emmily é farmacêutica (Universidade da Amazônia), mestre em Biologia Parasit�
 
 :::
 
-## Emmily's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

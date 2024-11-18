@@ -2,13 +2,11 @@
 title: &TITLE Erivelton Oliveira
 last: Oliveira
 first: Erivelton
-people_group: "bahia"
+people_group: "graduate"
+group: "bahia"
 email: oliveira.lacenbahia@gmail.com
 education:
-  - Graduação em Farmácia e Bioquímica (Universidade Federal da Bahia)
-  - Especialização em Saúde Coletiva (ISC/UFBA)
-  - Sanitarista (ESPBA)
-  - Mestrado (Fiocruz/Bahia)
+  - Graduação em Farmácia e Bioquímica (Universidade Federal da Bahia) <br> Especialização em Saúde Coletiva (ISC/UFBA) <br> Sanitarista (ESPBA) <br> Mestrado (Fiocruz/Bahia)
 subtitle: "Farmacêutico Bioquímico | LACEN-BA"
 description: ""
 image: avatar.jpg
@@ -53,9 +51,9 @@ Erivelton é farmacêutico Bioquímico pela Universidade Federal da Bahia (UFBA)
 
 <br>
 
-::: 
+:::
 
-## Erivelton's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::

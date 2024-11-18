@@ -2,11 +2,11 @@
 title: &TITLE Davi Josué Marcon
 last: Marcon
 first: Davi Josué
-people_group: "para"
+people_group: "graduate"
+group: "para"
 email: davijosuemarcon@gmail.com
 education:
-  - Graduação | Biotecnologia, Universidade Federal do Pará
-  - Mestrado (em andamento) | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
+  - Graduação | Biotecnologia, Universidade Federal do Pará <br> Mestrado (em andamento) | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
 subtitle: "Mestrando em Biologia Parasitária na Amazônia | Universidade do Estado do Pará"
 description: "Bioinformata do Projeto REVIGET"
 image: avatar.jpg
@@ -59,7 +59,7 @@ Davi é Biotecnologista graduado pela Universidade Federal do Pará (UFPA) e atu
 
 :::
 
-## Davi's Group Publications
+## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::
