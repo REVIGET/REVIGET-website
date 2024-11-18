@@ -1,16 +1,62 @@
 [
   {
-    "listing": "/people/lima-karla/index.html",
+    "listing": "/people/warren-rob/index.html",
     "items": []
   },
   {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/fast_electron_nano-spectroscopy/index.html"
-    ]
+    "listing": "/people/santos-danna/index.html",
+    "items": []
   },
   {
-    "listing": "/publications/index.html",
+    "listing": "/people/ribeiro-layana/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/pereira-felicidade/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/oliveira-tulio/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/nardy-vanessa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/lourenco-cristina/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/junior-walter/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/gouveia-maria/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/gabriel-ingrid/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/costa-emilyn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/brasil-thiago/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/barreto-leonardo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/alberio-carlos/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/fast_electron_nano-spectroscopy/index.html",
     "items": [
       "/publications/2024_090_strategy_for_direct/index.html"
     ]
@@ -19,8 +65,27 @@
     "listing": "/people/index.html",
     "items": [
       "/people/lima-karla/index.html",
-      "/people/costa-emilyn/index.html"
+      "/people/frota-cristiane/index.html",
+      "/people/lourenco-cristina/index.html",
+      "/people/bessa-theolis/index.html",
+      "/people/alberio-carlos/index.html",
+      "/people/amador-emmily/index.html",
+      "/people/andrade-valnete/index.html",
+      "/people/costa-emilyn/index.html",
+      "/people/sharma-abhinav/index.html"
     ]
+  },
+  {
+    "listing": "/people/furlaneto-ismari/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/dias-emilly/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/andrade-valnete/index.html",
+    "items": []
   },
   {
     "listing": "/dmref/publications/index.html",
@@ -37,13 +102,83 @@
     ]
   },
   {
-    "listing": "/research/fast_electron_nano-spectroscopy/index.html",
+    "listing": "/people/barros-rafaella/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/duarte-tonya/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/guimaraes-ricardo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/monteiro-lucia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
     "items": [
       "/publications/2024_090_strategy_for_direct/index.html"
     ]
   },
   {
-    "listing": "/people/costa-emilyn/index.html",
+    "listing": "/research/index.html",
+    "items": [
+      "/research/fast_electron_nano-spectroscopy/index.html"
+    ]
+  },
+  {
+    "listing": "/people/amador-emmily/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/bessa-theolis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/brito-alex/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/frota-cristiane/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/gomez-marcela/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/jesus-hendor/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/lima-karla/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/marcon-davi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/oliveira-erivelton/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/pantoja-jose/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/quaresma-ana/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/sancho-soraya/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/sharma-abhinav/index.html",
     "items": []
   }
 ]

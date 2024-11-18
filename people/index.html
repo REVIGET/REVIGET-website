@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-para .list');
+    const listingTargetEl = window.document.querySelector('#listing-pi .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,6 +84,62 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-description","listing-subtitle","listing-affiliation","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-piregional .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-piregional'] = new List('listing-piregional', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-para .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-description","listing-subtitle","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -172,6 +228,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-bahia'] = new List('listing-bahia', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-riodejaneiro .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-riodejaneiro'] = new List('listing-riodejaneiro', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -285,11 +369,14 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#para" id="toc-para" class="nav-link active" data-scroll-target="#para">Para 🇧🇷</a></li>
+  <li><a href="#coordenação-geral" id="toc-coordenação-geral" class="nav-link active" data-scroll-target="#coordenação-geral">Coordenação Geral 🇧🇷</a></li>
+  <li><a href="#coordenação-regional" id="toc-coordenação-regional" class="nav-link" data-scroll-target="#coordenação-regional">Coordenação Regional 🇧🇷</a></li>
+  <li><a href="#capacitadores" id="toc-capacitadores" class="nav-link" data-scroll-target="#capacitadores">Capacitadores 🇿🇦 🇧🇷 🇮🇳</a></li>
   <li><a href="#amazonas" id="toc-amazonas" class="nav-link" data-scroll-target="#amazonas">Amazonas 🇧🇷</a></li>
+  <li><a href="#para" id="toc-para" class="nav-link" data-scroll-target="#para">Para 🇧🇷</a></li>
   <li><a href="#ceara" id="toc-ceara" class="nav-link" data-scroll-target="#ceara">Ceara 🇧🇷</a></li>
   <li><a href="#bahia" id="toc-bahia" class="nav-link" data-scroll-target="#bahia">Bahia 🇧🇷</a></li>
-  <li><a href="#stellenbosch-university" id="toc-stellenbosch-university" class="nav-link" data-scroll-target="#stellenbosch-university">Stellenbosch University 🇿🇦</a></li>
+  <li><a href="#rio-de-janeiro" id="toc-rio-de-janeiro" class="nav-link" data-scroll-target="#rio-de-janeiro">Rio de Janeiro 🇧🇷</a></li>
   </ul>
 </nav>
     </div>
@@ -315,9 +402,9 @@ window.Quarto = {
 </header>
 
 
-<section id="para" class="level2">
-<h2 class="anchored" data-anchor-id="para">Para 🇧🇷</h2>
-<div id="listing-para" class="quarto-listing quarto-listing-container-custom">
+<section id="coordenação-geral" class="level2">
+<h2 class="anchored" data-anchor-id="coordenação-geral">Coordenação Geral 🇧🇷</h2>
+<div id="listing-pi" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
@@ -331,7 +418,7 @@ window.Quarto = {
         <div class="quarto-grid-item card h-100 card-left">
 
           <p class="card-img-top">
-            <img alt="Karla Valéria Batista Lima" src="../people/lima-karla/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Karla Valéria Batista Lima" src="../people/lima-karla/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
 
           <div class="card-body post-contents">
@@ -368,13 +455,118 @@ No matching items
 </div>
 </div>
 </section>
-<section id="amazonas" class="level2">
-<h2 class="anchored" data-anchor-id="amazonas">Amazonas 🇧🇷</h2>
-<div id="listing-amazonas" class="quarto-listing quarto-listing-container-custom">
+<section id="coordenação-regional" class="level2">
+<h2 class="anchored" data-anchor-id="coordenação-regional">Coordenação Regional 🇧🇷</h2>
+<div id="listing-piregional" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
   <div class="list grid quarto-listing-cols-3">
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/frota-cristiane/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Cristiane Cunha Frota" src="../people/frota-cristiane/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Cristiane Cunha Frota<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Professora Titular | Universidade Federal do Ceará<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Farmácia e Análises Clínicas, Universidade Federal do Ceará (UFC) <br> Mestrado | Patologia, Universidade Federal do Ceará (UFC) <br> Doutorado | Micobactérias, University College London - National Institute for Medical Research<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/lourenco-cristina/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Maria Cristina da Silva Lourenço" src="../people/lourenco-cristina/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Maria Cristina da Silva Lourenço<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Pesquisadora em Saúde e Diretora do Laboratório de Bacteriologia e Bioensaios do INI<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Farmácia, Universidade Federal do Rio de Janeiro (UFRJ) (1977) <br> Mestrado <br> Microbiologia, Universidade Federal do Rio de Janeiro (UFRJ) (1998) <br> Especialização | Microbiologia Clínica, Universidade Federal do Rio de Janeiro (UFRJ)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/bessa-theolis/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Theolis Costa Barbosa Bessa" src="../people/bessa-theolis/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Theolis Costa Barbosa Bessa<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Tecnologista em Saúde Pública | Instituto Gonçalo Moniz - Fiocruz<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Bióloga (Universidade Federal da Bahia) <br> Mestrado em Imunologia (Universidade Federal da Bahia) <br> Doutorado em Patologia Humana (Universidade Federal da Bahia)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
 
     
 
@@ -386,32 +578,8 @@ No matching items
 </div>
 </div>
 </section>
-<section id="ceara" class="level2">
-<h2 class="anchored" data-anchor-id="ceara">Ceara 🇧🇷</h2>
-<div id="postdoc">
-
-</div>
-</section>
-<section id="bahia" class="level2">
-<h2 class="anchored" data-anchor-id="bahia">Bahia 🇧🇷</h2>
-<div id="listing-bahia" class="quarto-listing quarto-listing-container-custom">
-
-<div class="quarto-listing quarto-listing-container-grid">
-
-  <div class="list grid quarto-listing-cols-3">
-
-    
-
-</div>
-</div>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="stellenbosch-university" class="level2">
-<h2 class="anchored" data-anchor-id="stellenbosch-university">Stellenbosch University 🇿🇦</h2>
+<section id="capacitadores" class="level2">
+<h2 class="anchored" data-anchor-id="capacitadores">Capacitadores 🇿🇦 🇧🇷 🇮🇳</h2>
 <div id="listing-stellenbosch" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
@@ -455,6 +623,41 @@ No matching items
 
     
 
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/sharma-abhinav/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Abhinav Sharma" src="../people/sharma-abhinav/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Abhinav Sharma<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Capacitador em WGS (Bioinformática) e Análise de Dados<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  PhD Candidate | Bioinformática, Stellenbosch University<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
 </div>
 </div>
 
@@ -462,12 +665,10 @@ No matching items
 No matching items
 </div>
 </div>
-
-
-
 </section>
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-ceara">
+<section id="amazonas" class="level2">
+<h2 class="anchored" data-anchor-id="amazonas">Amazonas 🇧🇷</h2>
+<div id="listing-amazonas" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
@@ -481,7 +682,190 @@ No matching items
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="para" class="level2">
+<h2 class="anchored" data-anchor-id="para">Para 🇧🇷</h2>
+<div id="listing-para" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/alberio-carlos/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Carlos Augusto Abreu Alberio" src="../people/alberio-carlos/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Carlos Augusto Abreu Alberio<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Consultor e Médico Pneumologista | Universidade Federal do Pará<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Doutor em Doenças Tropicais (UFPA) <br> Especialista em Pneumologia e Tisiologia (UNIFESP) <br> Médico (UFPA)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/amador-emmily/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Emmily Oliveira Amador" src="../people/amador-emmily/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Emmily Oliveira Amador<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Doutoranda em Biologia Parasitária na Amazônia, UEPA | Docente<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Farmácia, Universidade da Amazônia <br> Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/andrade-valnete/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Valnete das Graças Dantas Andrade" src="../people/andrade-valnete/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Valnete das Graças Dantas Andrade<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Consultora do LACEN-PA no projeto REVIGET<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Farmácia (UFPA) <br> MBA em Gestão de Negócios-Saúde (FGV) <br> Especialista em Biossegurança para Laboratório de Saúde Pública (ENSP-FIOCRUZ) <br> Especialista em Gestão Pública (Centro Universitário Toledo)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="ceara" class="level2">
+<h2 class="anchored" data-anchor-id="ceara">Ceara 🇧🇷</h2>
+<div id="listing-ceara" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="bahia" class="level2">
+<h2 class="anchored" data-anchor-id="bahia">Bahia 🇧🇷</h2>
+<div id="listing-bahia" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="rio-de-janeiro" class="level2">
+<h2 class="anchored" data-anchor-id="rio-de-janeiro">Rio de Janeiro 🇧🇷</h2>
+<div id="listing-riodejaneiro" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
