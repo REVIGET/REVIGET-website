@@ -9,7 +9,7 @@ education:
   - Graduação | Engenharia de Alimentos, Universidade Federal do Ceará (UFC) <br> Especialização | Vigilância Sanitária de Alimentos, Universidade Estadual do Ceará (UECE) <br> Mestrado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC) <br> Doutorado | Biotecnologia, Rede Nordeste de Biotecnologia (Renorbio) - UFC <br> Pós-doutorado | Biotecnologia, Universidade Federal do Ceará (UFC) <br> Pós-doutorado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC) <br> Pós-doutorado | Ciência e Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
 subtitle: "Pós-doutora em Biotecnologia | Universidade Federal do Ceará"
 description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática"
-image: avatar.jpg
+image: avatar.png
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -27,7 +27,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: avatar.png
   links:
     - icon: envelope
       text: Email
