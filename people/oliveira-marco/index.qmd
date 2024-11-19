@@ -1,7 +1,9 @@
+---
 title: &TITLE Marco Aurélio Almeida de Oliveira
 last: Oliveira
-first: Marco Aurélio Almeida de
+first: Marco
 people_group: "amazonas"
+group: "amazonas"
 email: lacen@fvs.am.gov.br
 education:
   - Farmacêutico-Bioquímico (Universidade Paulista) <br> Mestre em Ciências Farmacêuticas (Universidade Federal do Amazonas) <br> MBA em Excelência Operacional em Saúde (Instituto Israelita Albert Einstein) <br> Black Belt Lean Healthcare (Masterlean Academy)

@@ -6,8 +6,7 @@ people_group: "graduate"
 group: "para"
 email: isabelmontoril13@gmail.com
 education:
-  - Graduação | Ciências Biológicas, Universidade do Estado do Pará (UEPA)
-  - Mestrado (em andamento) | Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas (IEC)
+  - Graduação | Ciências Biológicas, Universidade do Estado do Pará (UEPA) <br> Mestrado (em andamento) | Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas (IEC)
 subtitle: "Mestranda em Epidemiologia e Vigilância em Saúde | Instituto Evandro Chagas"
 description: "Bolsista FIOTEC"
 image: avatar.jpg

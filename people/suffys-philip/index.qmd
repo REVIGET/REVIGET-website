@@ -1,4 +1,4 @@
-Philip---
+---
 title: &TITLE Philip Noel Suffys
 last: Suffys
 first: Philip Noel

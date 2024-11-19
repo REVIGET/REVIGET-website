@@ -6,8 +6,7 @@ people_group: "graduate"
 group: "para"
 email: emillygrdias@icloud.com
 education:
-  - Biomédica (Universidade da Amazônia)
-  - Mestrado e Doutorado (em andamento) em Biologia Parasitária na Amazônia (Universidade do Estado do Pará/IEC)
+  - Biomédica (Universidade da Amazônia) <br> Mestrado e Doutorado (em andamento) em Biologia Parasitária na Amazônia (Universidade do Estado do Pará/IEC)
 description: "Analista de bigdata no projeto REVIGET"
 subtitle: "Pesquisadora em epidemiologia da tuberculose e analista de bigdata"
 image: avatar.jpg
