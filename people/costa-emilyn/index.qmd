@@ -2,8 +2,8 @@
 title: &TITLE Emilyn Costa Conceição
 last: Costa Conceição
 first: Emilyn
-people_group: postdoc
-group: stellenbosch
+people_group: "stellenbosch"
+group: "capacitadores"
 email: "emilyncosta@sun.ac.za"
 subtitle: "Capacitadora em WGS e Análise de Dados."
 affiliation: Stellenbosch University

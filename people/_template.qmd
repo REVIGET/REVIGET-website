@@ -2,7 +2,8 @@
 title: &TITLE Name
 last:
 first:
-people_group: "stellenbosch | para | amazonas | ceara | bahia"
+people_group: graduate | postdoc | pi 
+group: "stellenbosch | para | amazonas | ceara | bahia"
 email:
 education:
   - deg | inst  <br>
