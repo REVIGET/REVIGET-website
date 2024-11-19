@@ -2,7 +2,7 @@
 title: &TITLE Maria Isabel Montoril Gouveia
 last: Gouveia
 first: Maria Isabel Montoril
-people_group: "graduate"
+people_group: "para"
 group: "para"
 email: isabelmontoril13@gmail.com
 education:

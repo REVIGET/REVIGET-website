@@ -2,7 +2,7 @@
 title: &TITLE Walter André Junior
 last: Junior
 first: Walter André
-people_group: "graduate"
+people_group: "lacen"
 group: "amazonas"
 email: lacenam.biomol@gmail.com
 education:
@@ -41,7 +41,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/marcoliveira85/
----  
+---
 
 <hr>
 

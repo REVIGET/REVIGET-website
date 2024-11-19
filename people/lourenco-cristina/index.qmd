@@ -2,8 +2,8 @@
 title: &TITLE Maria Cristina da Silva Lourenço
 last: Lourenço
 first: Maria Cristina
-people_group: "piregional"
-group: "piregional"
+group: "colaboradores"
+people_group: "riodejaneiro"
 email: cristina.lourenco@ini.fiocruz.br
 education:
   - Graduação | Farmácia, Universidade Federal do Rio de Janeiro (UFRJ) (1977) <br> Mestrado <br> Microbiologia, Universidade Federal do Rio de Janeiro (UFRJ) (1998) <br> Especialização | Microbiologia Clínica, Universidade Federal do Rio de Janeiro (UFRJ)

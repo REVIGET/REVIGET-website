@@ -2,9 +2,8 @@
 title: &TITLE Adriana Ayden Ferreira
 last: Ferreira
 first: Adriana Ayden
-people_group: "graduate"
-group: "amazonas"
-#people_group: "piregional"
+group: "piregional"
+people_group: "piregional"
 email: adrianayden@hotmail.com
 education:
   - Farmácia com habilitação em Bioquímica (Universidade Federal do Amazonas) <br> Especialista em Epidemiologia Aplicada aos Serviços do SUS (Fiocruz)

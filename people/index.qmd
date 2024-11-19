@@ -71,9 +71,18 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-  - id: stellenbosch
+  - id: capacitadores
     include:
-      group: "stellenbosch"
+      group: "capacitadores"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: colaboradores
+    include:
+      group: "colaboradores"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
@@ -93,9 +102,13 @@ listing:
 
 
 ## Capacitadores 🇿🇦 🇧🇷 🇮🇳
-::: {#stellenbosch}
+::: {#capacitadores}
 :::
 
+## Colaboradores 🇧🇷
+
+::: {#colaboradores}
+:::
 
 
 ## Amazonas 🇧🇷
@@ -108,7 +121,6 @@ listing:
 :::
 
 
-
 ## Ceara 🇧🇷
 
 ::: {#ceara}
@@ -116,8 +128,4 @@ listing:
 
 ## Bahia 🇧🇷
 ::: {#bahia}
-:::
-
-## Rio de Janeiro 🇧🇷
-::: {#riodejaneiro}
 :::

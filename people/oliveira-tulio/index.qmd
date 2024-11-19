@@ -2,8 +2,8 @@
 title: &TITLE Tulio de Oliveira
 last: de Oliveira
 first: Tulio
-people_group: "graduate"
-group: "stellenbosch"
+people_group: "stellenbosch"
+group: "capacitadores"
 email: tulio@sun.ac.za
 education:
   - Graduação | Ciências Biológicas, Universidade Federal do Rio Grande do Sul (UFRGS) <br> Mestrado | Nelson R Mandela School of Medicine, África do Sul <br> Doutorado | Nelson R Mandela School of Medicine, África do Sul

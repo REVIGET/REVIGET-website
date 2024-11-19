@@ -3,7 +3,7 @@ title: &TITLE Abhinav Sharma
 last: Sharma
 first: Abhinav
 people_group: "stellenbosch"
-group: "stellenbosch"
+group: "capacitadores"
 email: abhinavsharma@sun.ac.za
 education:
   - PhD Candidate | Bioinformática, Stellenbosch University

@@ -2,8 +2,8 @@
 title: &TITLE Rob Warren
 last: Warren
 first: Rob
-people_group: "graduate"
-group: "stellenbosch"
+people_group: "stellenbosch"
+group: "capacitadores"
 email: rw1@sun.ac.za
 education:
   - Doutorado | Bioquímica, Universidade de Cape Town (1995)
@@ -62,4 +62,3 @@ O Prof. Rob Warren obteve seu doutorado em Bioquímica pela Universidade de Cape
 
 :::{#pubs}
 :::
-
