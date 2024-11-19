@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-description","listing-subtitle","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -165,9 +165,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -193,9 +193,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -221,9 +221,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -270,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-stellenbosch .list');
+    const listingTargetEl = window.document.querySelector('#listing-capacitadores .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -283,7 +283,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-stellenbosch'] = new List('listing-stellenbosch', options);
+    window['quarto-listings']['listing-capacitadores'] = new List('listing-capacitadores', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-colaboradores .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-colaboradores'] = new List('listing-colaboradores', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -372,11 +400,11 @@ window.Quarto = {
   <li><a href="#coordenação-geral" id="toc-coordenação-geral" class="nav-link active" data-scroll-target="#coordenação-geral">Coordenação Geral 🇧🇷</a></li>
   <li><a href="#coordenação-regional" id="toc-coordenação-regional" class="nav-link" data-scroll-target="#coordenação-regional">Coordenação Regional 🇧🇷</a></li>
   <li><a href="#capacitadores" id="toc-capacitadores" class="nav-link" data-scroll-target="#capacitadores">Capacitadores 🇿🇦 🇧🇷 🇮🇳</a></li>
+  <li><a href="#colaboradores" id="toc-colaboradores" class="nav-link" data-scroll-target="#colaboradores">Colaboradores 🇧🇷</a></li>
   <li><a href="#amazonas" id="toc-amazonas" class="nav-link" data-scroll-target="#amazonas">Amazonas 🇧🇷</a></li>
   <li><a href="#para" id="toc-para" class="nav-link" data-scroll-target="#para">Para 🇧🇷</a></li>
   <li><a href="#ceara" id="toc-ceara" class="nav-link" data-scroll-target="#ceara">Ceara 🇧🇷</a></li>
   <li><a href="#bahia" id="toc-bahia" class="nav-link" data-scroll-target="#bahia">Bahia 🇧🇷</a></li>
-  <li><a href="#rio-de-janeiro" id="toc-rio-de-janeiro" class="nav-link" data-scroll-target="#rio-de-janeiro">Rio de Janeiro 🇧🇷</a></li>
   </ul>
 </nav>
     </div>
@@ -467,6 +495,41 @@ No matching items
 
     <div class="g-col-1 listing-box">
 
+      <a href="../people/ferreira-adriana/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Adriana Ayden Ferreira" src="../people/ferreira-adriana/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Adriana Ayden Ferreira<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Levantamento e processamento de amostras, obtenção de dados e liberação de diagnósticos<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Farmácia com habilitação em Bioquímica (Universidade Federal do Amazonas) <br> Especialista em Epidemiologia Aplicada aos Serviços do SUS (Fiocruz)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
       <a href="../people/frota-cristiane/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
 
@@ -488,41 +551,6 @@ No matching items
 
                 
                   Graduação | Farmácia e Análises Clínicas, Universidade Federal do Ceará (UFC) <br> Mestrado | Patologia, Universidade Federal do Ceará (UFC) <br> Doutorado | Micobactérias, University College London - National Institute for Medical Research<br>
-                  
-
-              </div>
-
-          </div>
-        </div>
-      </a>
-
-    </div>
-
-    
-
-    <div class="g-col-1 listing-box">
-
-      <a href="../people/lourenco-cristina/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-
-          <p class="card-img-top">
-            <img alt="Maria Cristina da Silva Lourenço" src="../people/lourenco-cristina/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-
-          <div class="card-body post-contents">
-
-            <div class="listing-box-title">
-              Maria Cristina da Silva Lourenço<br>
-            </div>
-
-            <div class="listing-box-subtitle">
-              Pesquisadora em Saúde e Diretora do Laboratório de Bacteriologia e Bioensaios do INI<br>
-            </div>
-
-              <div class="listing-box-education">
-
-                
-                  Graduação | Farmácia, Universidade Federal do Rio de Janeiro (UFRJ) (1977) <br> Mestrado <br> Microbiologia, Universidade Federal do Rio de Janeiro (UFRJ) (1998) <br> Especialização | Microbiologia Clínica, Universidade Federal do Rio de Janeiro (UFRJ)<br>
                   
 
               </div>
@@ -580,7 +608,7 @@ No matching items
 </section>
 <section id="capacitadores" class="level2">
 <h2 class="anchored" data-anchor-id="capacitadores">Capacitadores 🇿🇦 🇧🇷 🇮🇳</h2>
-<div id="listing-stellenbosch" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-capacitadores" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
@@ -658,6 +686,199 @@ No matching items
 
     
 
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/warren-rob/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Rob Warren" src="../people/warren-rob/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Rob Warren<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Consultor para Análise e Interpretação de Dados<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Doutorado | Bioquímica, Universidade de Cape Town (1995)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/oliveira-tulio/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Tulio de Oliveira" src="../people/oliveira-tulio/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Tulio de Oliveira<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Consultor para Análise e Interpretação de Dados<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Ciências Biológicas, Universidade Federal do Rio Grande do Sul (UFRGS) <br> Mestrado | Nelson R Mandela School of Medicine, África do Sul <br> Doutorado | Nelson R Mandela School of Medicine, África do Sul<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="colaboradores" class="level2">
+<h2 class="anchored" data-anchor-id="colaboradores">Colaboradores 🇧🇷</h2>
+<div id="listing-colaboradores" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/barreto-leonardo/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Leonardo Bruno Paz Ferreira Barreto" src="../people/barreto-leonardo/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Leonardo Bruno Paz Ferreira Barreto<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Tecnologista em Saúde Pública e Especialista em Micobactérias<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  [object Object]<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/lourenco-cristina/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Maria Cristina da Silva Lourenço" src="../people/lourenco-cristina/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Maria Cristina da Silva Lourenço<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Pesquisadora em Saúde e Diretora do Laboratório de Bacteriologia e Bioensaios do INI<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Farmácia, Universidade Federal do Rio de Janeiro (UFRJ) (1977) <br> Mestrado <br> Microbiologia, Universidade Federal do Rio de Janeiro (UFRJ) (1998) <br> Especialização | Microbiologia Clínica, Universidade Federal do Rio de Janeiro (UFRJ)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/suffys-philip/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Philip Noel Suffys" src="../people/suffys-philip/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Philip Noel Suffys<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Chefe do Laboratório de Biologia Molecular Aplicada em Micobactérias (LABMAM) do Instituto Oswaldo Cruz da Fiocruz<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Biologia, Rijksuniversiteit te Gent (1985) <br> Doutorado | Biologia Molecular, Rijksuniversiteit te Gent (1989)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
 </div>
 </div>
 
@@ -676,6 +897,76 @@ No matching items
 
     
 
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/junior-walter/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Walter André Junior" src="../people/junior-walter/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Walter André Junior<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Farmacêutico-Bioquímico | Laboratório Central de Saúde Pública do Amazonas<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Farmácia e Bioquímica (Universidade XYZ) <br> Especializações em Docência no Ensino Superior, Análises Clínicas, Sexologia, Citologia Clínica e Farmácia Hospitalar<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/oliveira-marco/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Marco Aurélio Almeida de Oliveira" src="../people/oliveira-marco/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Marco Aurélio Almeida de Oliveira<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Farmacêutico-Bioquímico (Universidade Paulista) <br> Mestre em Ciências Farmacêuticas (Universidade Federal do Amazonas) <br> MBA em Excelência Operacional em Saúde (Instituto Israelita Albert Einstein) <br> Black Belt Lean Healthcare (Masterlean Academy)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
 </div>
 </div>
 
@@ -691,6 +982,41 @@ No matching items
 <div class="quarto-listing quarto-listing-container-grid">
 
   <div class="list grid quarto-listing-cols-3">
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/brito-alex/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Alex Brito" src="../people/brito-alex/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Alex Brito<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Técnico em sequenciamento e Doutorando<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Doutorado em andamento | PPG-BPA-IEC <br> Mestrado | PPG-BPA-IEC <br> Graduação | Universidade Federal do Pará, 1998 <br> Especialização | Análises Clínicas com Ênfase no Diagnóstico Laboratorial de Doenças Tropicais, UFPA, 2005 <br> Especialização | Gestão de Assistência Farmacêutica, UFSC, 2012<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
 
     
 
@@ -731,6 +1057,111 @@ No matching items
 
     <div class="g-col-1 listing-box">
 
+      <a href="../people/santos-danna/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Danna Karen Corrêa dos Santos" src="../people/santos-danna/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Danna Karen Corrêa dos Santos<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Graduanda em Biomedicina | Instituto Evandro Chagas<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação (em andamento) | Biomedicina, Universidade do Estado do Pará (UEPA)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/marcon-davi/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Davi Josué Marcon" src="../people/marcon-davi/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Davi Josué Marcon<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Mestrando em Biologia Parasitária na Amazônia | Universidade do Estado do Pará<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Biotecnologia, Universidade Federal do Pará <br> Mestrado (em andamento) | Biologia Parasitária na Amazônia, Universidade do Estado do Pará<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/dias-emilly/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Emilly Gabriele Ribeiro Dias" src="../people/dias-emilly/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Emilly Gabriele Ribeiro Dias<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Pesquisadora em epidemiologia da tuberculose e analista de bigdata<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Biomédica (Universidade da Amazônia) <br> Mestrado e Doutorado (em andamento) em Biologia Parasitária na Amazônia (Universidade do Estado do Pará/IEC)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
       <a href="../people/amador-emmily/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
 
@@ -752,6 +1183,251 @@ No matching items
 
                 
                   Graduação | Farmácia, Universidade da Amazônia <br> Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/furlaneto-ismari/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Ismari Perini Furlaneto" src="../people/furlaneto-ismari/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Ismari Perini Furlaneto<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Docente do curso de medicina do Centro Universitário do Estado do Pará<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Doutorado em Biologia Parasitária na Amazônia (Universidade do Estado do Pará/Instituto Evandro Chagas) <br> Mestrado em Doenças Tropicais (Universidade Federal do Pará) <br> Especialização em Educação em Saúde (Faculdade de Medicina da Universidade de São Paulo) <br> Bacharelado em Farmácia (Centro Universitário do Estado do Pará)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/pantoja-jose/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="José Anderson Monteiro Pantoja" src="../people/pantoja-jose/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              José Anderson Monteiro Pantoja<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Graduando em Ciências Biológicas | Instituto Evandro Chagas<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação (em andamento) | Ciências Biológicas, Universidade do Estado do Pará (UEPA)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/ribeiro-layana/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Layana Rufino Ribeiro" src="../people/ribeiro-layana/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Layana Rufino Ribeiro<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Mestranda em Epidemiologia e Vigilância em Saúde e bolsista REVIGET<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Ciências Biológicas, Universidade do Estado do Pará <br> Mestrado (em andamento) | Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/monteiro-lucia/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Lúcia Helena Martins Tavares Monteiro" src="../people/monteiro-lucia/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Lúcia Helena Martins Tavares Monteiro<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Consultora do estado do Pará no projeto REVIGET<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação em Medicina <br> Pós-graduação em Saúde Pública <br> Mestrado em Epidemiologia<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/gouveia-maria/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Maria Isabel Montoril Gouveia" src="../people/gouveia-maria/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Maria Isabel Montoril Gouveia<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Mestranda em Epidemiologia e Vigilância em Saúde | Instituto Evandro Chagas<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Ciências Biológicas, Universidade do Estado do Pará (UEPA) <br> Mestrado (em andamento) | Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas (IEC)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/barros-rafaella/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Rafaella Bonfim Barros" src="../people/barros-rafaella/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Rafaella Bonfim Barros<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Responsável pelo setor de Micobactérias no Laboratório Central do Estado do Pará (LACEN-PA)<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Farmácia com Habilitação em Bioquímica (Centro Universitário do Estado do Pará) <br> Especialização em Toxicologia (Universidade Federal do Pará) <br> Especialização em Atenção Farmacêutica (Centro Universitário do Estado do Pará)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/guimaraes-ricardo/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Ricardo José de Paula Souza e Guimarães" src="../people/guimaraes-ricardo/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Ricardo José de Paula Souza e Guimarães<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Tecnologista em Geoprocessamento no projeto REVIGET<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Ciências Biológicas (Universidade de Taubaté) <br> Especialização em Informática na Saúde (UFRN) <br> Mestrado em Sensoriamento Remoto (INPE) <br> Doutorado em Biomedicina (Instituto de Ensino e Pesquisa da Santa Casa de Belo Horizonte) <br> Pós-doutorado em Ciências da Saúde (Instituto René Rachou/Fiocruz-MG)<br>
                   
 
               </div>
@@ -817,6 +1493,76 @@ No matching items
 
     
 
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/brasil-thiago/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Thiago Pinto Brasil" src="../people/brasil-thiago/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Thiago Pinto Brasil<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Mestre em Patologia | Universidade Federal do Ceará<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Bacharelado | Biomedicina, Centro Universitário Christus (Unichristus) <br> Especialização | Microbiologia Clínica, Centro Universitário Christus (Unichristus) <br> Mestrado | Patologia, Faculdade de Medicina, Universidade Federal do Ceará (UFC)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/sancho-soraya/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Soraya de Oliveira Sancho" src="../people/sancho-soraya/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Soraya de Oliveira Sancho<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Pós-doutora em Biotecnologia | Universidade Federal do Ceará<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Engenharia de Alimentos, Universidade Federal do Ceará (UFC) <br> Especialização | Vigilância Sanitária de Alimentos, Universidade Estadual do Ceará (UECE) <br> Mestrado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC) <br> Doutorado | Biotecnologia, Rede Nordeste de Biotecnologia (Renorbio) - UFC <br> Pós-doutorado | Biotecnologia, Universidade Federal do Ceará (UFC) <br> Pós-doutorado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC) <br> Pós-doutorado | Ciência e Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
 </div>
 </div>
 
@@ -835,21 +1581,248 @@ No matching items
 
     
 
-</div>
-</div>
+    <div class="g-col-1 listing-box">
 
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="rio-de-janeiro" class="level2">
-<h2 class="anchored" data-anchor-id="rio-de-janeiro">Rio de Janeiro 🇧🇷</h2>
-<div id="listing-riodejaneiro" class="quarto-listing quarto-listing-container-custom">
+      <a href="../people/gomez-marcela/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
 
-<div class="quarto-listing quarto-listing-container-grid">
+          <p class="card-img-top">
+            <img alt="Marcela Kelly Astete Gómez" src="../people/gomez-marcela/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
 
-  <div class="list grid quarto-listing-cols-3">
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Marcela Kelly Astete Gómez<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Especialista em Biologia Molecular e Sequenciamento de Nova Geração<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação | Biomedicina, Universidade Tiradentes (UNIT), Aracaju, Sergipe (2003) <br> Especialização | Citogenética Humana, Universidade Católica do Salvador (UCSAL) (2007) <br> Mestrado | Biotecnologia em Saúde e Medicina Investigativa (PgBSMI), Fundação Oswaldo Cruz (FIOCRUZ-BA) (2011)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/duarte-tonya/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Tonya Azevedo Duarte" src="../people/duarte-tonya/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Tonya Azevedo Duarte<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Professora Associada | UFBA<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação em Medicina Veterinária, Universidade Federal da Bahia (UFBA) <br> Mestrado em Patologia Experimental, Universidade Federal da Bahia (UFBA) <br> Doutorado em Ciências, Universidade Federal do Rio de Janeiro (UFRJ)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/gabriel-ingrid/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Ingrid Pimentel Silva Gabriel" src="../people/gabriel-ingrid/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Ingrid Pimentel Silva Gabriel<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Biomédica | Grupo de Pesquisa Clínica Fiocruz em Tuberculose<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação em Biomedicina, União Metropolitana de Educação e Cultura (UNIME)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/nardy-vanessa/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Vanessa Brandão Nardy" src="../people/nardy-vanessa/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Vanessa Brandão Nardy<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Analista Clínica | LACEN-BA<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação em Ciências Biológicas, Universidade Estadual do Sudoeste da Bahia <br> Mestrado em Biotecnologia em Saúde e Medicina Investigativa, Fundação Oswaldo Cruz (FIOCRUZ)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/oliveira-erivelton/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Erivelton Oliveira" src="../people/oliveira-erivelton/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Erivelton Oliveira<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Farmacêutico Bioquímico | LACEN-BA<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação em Farmácia e Bioquímica (Universidade Federal da Bahia) <br> Especialização em Saúde Coletiva (ISC/UFBA) <br> Sanitarista (ESPBA) <br> Mestrado (Fiocruz/Bahia)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/pereira-felicidade/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Felicidade Mota Pereira" src="../people/pereira-felicidade/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Felicidade Mota Pereira<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Farmacêutica Bioquímica | LACEN-BA<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Graduação em Farmácia e Bioquímica <br> Doutorado em Ciências com ênfase em Biotecnologia em Saúde e Medicina Investigativa (Fiocruz-Bahia)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    
+
+    <div class="g-col-1 listing-box">
+
+      <a href="../people/jesus-hendor/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+
+          <p class="card-img-top">
+            <img alt="Hendor Neves Ribeiro de Jesus" src="../people/jesus-hendor/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+
+          <div class="card-body post-contents">
+
+            <div class="listing-box-title">
+              Hendor Neves Ribeiro de Jesus<br>
+            </div>
+
+            <div class="listing-box-subtitle">
+              Pesquisador em Genômica e Bioinformática | Fiocruz<br>
+            </div>
+
+              <div class="listing-box-education">
+
+                
+                  Bacharel em Biotecnologia (Universidade Federal da Bahia) <br> Mestrado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia) <br> Doutorado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia)<br>
+                  
+
+              </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
 
     
 
@@ -865,7 +1838,21 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-custom" id="listing-riodejaneiro">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

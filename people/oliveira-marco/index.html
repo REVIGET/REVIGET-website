@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Gestor e consultor sobre testes laboratoriais do LACEN-AM">
 
-<title>index – REVIGET Consortium</title>
+<title>Marco Aurélio Almeida de Oliveira – REVIGET Consortium</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,10 +32,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.reviget.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -69,12 +71,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta name="twitter:title" content="REVIGET Consortium">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta name="twitter:title" content="Marco Aurélio Almeida de Oliveira – REVIGET Consortium">
+<meta name="twitter:description" content="Gestor e consultor sobre testes laboratoriais do LACEN-AM">
+<meta name="twitter:image" content="https://reviget.org/people/oliveira-marco/avatar.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -106,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -114,27 +175,82 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#group-publications" id="toc-group-publications" class="nav-link active" data-scroll-target="#group-publications">Group Publications</a></li>
+  <li><a href="#s-group-publications" id="toc-s-group-publications" class="nav-link active" data-scroll-target="#s-group-publications">Marco Aurélio Almeida de’s Group Publications</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
 
-<p>title: &amp;TITLE Marco Aurélio Almeida de Oliveira last: Oliveira first: Marco Aurélio Almeida de people_group: “amazonas” email: lacen@fvs.am.gov.br education: - Farmacêutico-Bioquímico (Universidade Paulista) <br> Mestre em Ciências Farmacêuticas (Universidade Federal do Amazonas) <br> MBA em Excelência Operacional em Saúde (Instituto Israelita Albert Einstein) <br> Black Belt Lean Healthcare (Masterlean Academy) description: “Gestor e consultor sobre testes laboratoriais do LACEN-AM” subtitle: “Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP” image: avatar.jpg listing: id: pubs template: ../../_ejs/publications-people.ejs contents: - “../../../publications/**/*.qmd” - “!../../../publications/_template/” sort: “pub_number desc” # sort-ui: true filter-ui: true include: author: *TITLE fields: [publication, title, categories, image, date, author] page-layout: full about: id: about template: trestles image-shape: round image: avatar.jpg links: - icon: envelope text: Email href: mailto:lacen@fvs.am.gov.br - icon: mortarboard text: Lattes href: http://lattes.cnpq.br/0631028623765995 - icon: mortarboard text: ORCID href: https://orcid.org/0009-0004-9239-8358 - icon: linkedin text: LinkedIn href: https://www.linkedin.com/in/marcoliveira85/</p>
 <hr>
-<hr>
-<div id="about">
+<div class="quarto-about-trestles column-page-left">
+  <div class="about-entity">
+    <img src="avatar.jpg" class="about-image
+  round " style="height: 20em; width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Marco Aurélio Almeida de Oliveira</h1>
+<p class="subtitle lead">Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP</p>
+</div>
+<div>
+  <div class="description">
+    Gestor e consultor sobre testes laboratoriais do LACEN-AM
+  </div>
+</div>
+<div class="quarto-title-meta column-page-left">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="mailto:lacen@fvs.am.gov.br" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+  <a href="http://lattes.cnpq.br/0631028623765995" class="about-link" rel="" target="">
+    <i class="bi bi-mortarboard"></i>
+     <span class="about-link-text">Lattes</span>
+  </a>
+  <a href="https://orcid.org/0009-0004-9239-8358" class="about-link" rel="" target="">
+    <i class="bi bi-mortarboard"></i>
+     <span class="about-link-text">ORCID</span>
+  </a>
+  <a href="https://www.linkedin.com/in/marcoliveira85/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><div id="about">
 <p>Farmacêutico-Bioquímico pela Universidade Paulista. Mestre em Ciências Farmacêuticas pela Universidade Federal do Amazonas. MBA em Excelência Operacional em Saúde pelo Instituto Israelita Albert Einstein. Black Belt Lean Healthcare pela Masterlean Academy. Farmacêutico Bioquímico concursado da Secretaria de Estado da Saúde SES-AM. Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP.</p>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>Farmacêutico-Bioquímico (Universidade Paulista) <br> Mestre em Ciências Farmacêuticas (Universidade Federal do Amazonas) <br> MBA em Excelência Operacional em Saúde (Instituto Israelita Albert Einstein) <br> Black Belt Lean Healthcare (Masterlean Academy)</p>
+<p><br></p>
+</section>
+</div></div>
 </div>
-<section id="group-publications" class="level2">
-<h2 class="anchored" data-anchor-id="group-publications">Group Publications</h2>
-<div id="pubs">
 
+<section id="s-group-publications" class="level2">
+<h2 data-anchor-id="s-group-publications">Marco Aurélio Almeida de’s Group Publications</h2>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
+<div class="list quarto-listing-default">
+    
+    </div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
 
 
 </section>
@@ -160,13 +276,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
