@@ -37,8 +37,8 @@ website:
         text: instituições
       - href: people/index.qmd
         text: pessoas
-      - href: sites/index.qmd
-        text: locais
+#      - href: sites/index.qmd
+#        text: locais
       - href: publications/index.qmd
 #      - text: "NSF DMREF"
 #        href: dmref/index.qmd

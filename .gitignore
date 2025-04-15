@@ -8,3 +8,6 @@
 /.luarc.json
 .DS_Store
 _site/
+people/_people-removed/
+people/_template.html
+people/_template_files/
