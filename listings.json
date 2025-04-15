@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/sites/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/warren-rob/index.html",
     "items": []
   },
@@ -20,24 +24,60 @@
     "items": []
   },
   {
-    "listing": "/people/oliveira-marco/index.html",
+    "listing": "/people/oliveira-erivelton/index.html",
     "items": []
   },
   {
-    "listing": "/people/nardy-vanessa/index.html",
+    "listing": "/people/monteiro-lucia/index.html",
     "items": []
   },
   {
-    "listing": "/people/marcon-davi/index.html",
+    "listing": "/people/lourenco-cristina/index.html",
     "items": []
   },
   {
-    "listing": "/people/lima-karla/index.html",
+    "listing": "/people/junior-walter/index.html",
     "items": []
   },
   {
-    "listing": "/people/jesus-hendor/index.html",
-    "items": []
+    "listing": "/people/index.html",
+    "items": [
+      "/people/lima-karla/index.html",
+      "/people/brito-alex/index.html",
+      "/people/alberio-carlos/index.html",
+      "/people/santos-danna/index.html",
+      "/people/marcon-davi/index.html",
+      "/people/dias-emilly/index.html",
+      "/people/amador-emmily/index.html",
+      "/people/furlaneto-ismari/index.html",
+      "/people/pantoja-jose/index.html",
+      "/people/ribeiro-layana/index.html",
+      "/people/monteiro-lucia/index.html",
+      "/people/gouveia-maria/index.html",
+      "/people/barros-rafaella/index.html",
+      "/people/guimaraes-ricardo/index.html",
+      "/people/andrade-valnete/index.html",
+      "/people/junior-walter/index.html",
+      "/people/brasil-thiago/index.html",
+      "/people/sancho-soraya/index.html",
+      "/people/gomez-marcela/index.html",
+      "/people/duarte-tonya/index.html",
+      "/people/gabriel-ingrid/index.html",
+      "/people/nardy-vanessa/index.html",
+      "/people/oliveira-erivelton/index.html",
+      "/people/pereira-felicidade/index.html",
+      "/people/jesus-hendor/index.html",
+      "/people/costa-emilyn/index.html",
+      "/people/sharma-abhinav/index.html",
+      "/people/warren-rob/index.html",
+      "/people/oliveira-tulio/index.html",
+      "/people/barreto-leonardo/index.html",
+      "/people/lourenco-cristina/index.html",
+      "/people/suffys-philip/index.html",
+      "/people/ferreira-adriana/index.html",
+      "/people/frota-cristiane/index.html",
+      "/people/bessa-theolis/index.html"
+    ]
   },
   {
     "listing": "/people/gouveia-maria/index.html",
@@ -76,18 +116,6 @@
     "items": []
   },
   {
-    "listing": "/research/fast_electron_nano-spectroscopy/index.html",
-    "items": [
-      "/publications/2024_090_strategy_for_direct/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/2022-08-24-new-pub/index.html"
-    ]
-  },
-  {
     "listing": "/dmref/people/index.html",
     "items": []
   },
@@ -96,57 +124,8 @@
     "items": []
   },
   {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/lima-karla/index.html",
-      "/people/ferreira-adriana/index.html",
-      "/people/frota-cristiane/index.html",
-      "/people/bessa-theolis/index.html",
-      "/people/brito-alex/index.html",
-      "/people/alberio-carlos/index.html",
-      "/people/santos-danna/index.html",
-      "/people/marcon-davi/index.html",
-      "/people/dias-emilly/index.html",
-      "/people/amador-emmily/index.html",
-      "/people/furlaneto-ismari/index.html",
-      "/people/pantoja-jose/index.html",
-      "/people/ribeiro-layana/index.html",
-      "/people/monteiro-lucia/index.html",
-      "/people/gouveia-maria/index.html",
-      "/people/barros-rafaella/index.html",
-      "/people/guimaraes-ricardo/index.html",
-      "/people/andrade-valnete/index.html",
-      "/people/junior-walter/index.html",
-      "/people/oliveira-marco/index.html",
-      "/people/brasil-thiago/index.html",
-      "/people/sancho-soraya/index.html",
-      "/people/gomez-marcela/index.html",
-      "/people/duarte-tonya/index.html",
-      "/people/gabriel-ingrid/index.html",
-      "/people/nardy-vanessa/index.html",
-      "/people/oliveira-erivelton/index.html",
-      "/people/pereira-felicidade/index.html",
-      "/people/jesus-hendor/index.html",
-      "/people/costa-emilyn/index.html",
-      "/people/sharma-abhinav/index.html",
-      "/people/warren-rob/index.html",
-      "/people/oliveira-tulio/index.html",
-      "/people/barreto-leonardo/index.html",
-      "/people/lourenco-cristina/index.html",
-      "/people/suffys-philip/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2024_090_strategy_for_direct/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/fast_electron_nano-spectroscopy/index.html"
-    ]
+    "listing": "/instituicoes/index.html",
+    "items": []
   },
   {
     "listing": "/people/amador-emmily/index.html",
@@ -185,19 +164,19 @@
     "items": []
   },
   {
-    "listing": "/people/junior-walter/index.html",
+    "listing": "/people/jesus-hendor/index.html",
     "items": []
   },
   {
-    "listing": "/people/lourenco-cristina/index.html",
+    "listing": "/people/lima-karla/index.html",
     "items": []
   },
   {
-    "listing": "/people/monteiro-lucia/index.html",
+    "listing": "/people/marcon-davi/index.html",
     "items": []
   },
   {
-    "listing": "/people/oliveira-erivelton/index.html",
+    "listing": "/people/nardy-vanessa/index.html",
     "items": []
   },
   {
@@ -218,6 +197,10 @@
   },
   {
     "listing": "/people/suffys-philip/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
     "items": []
   }
 ]
