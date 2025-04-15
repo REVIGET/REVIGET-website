@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Felicidade é Farmacêutica Bioquímica e doutora em Ciências com ênfase em Biotecnologia em Saúde e Medicina Investigativa pela Fiocruz-Bahia. Atualmente, é servidora do LACEN-BA, coordenadora dos Laboratórios de Vigilância Epidemiológica e presidente da Comissão de Ensino e Pesquisa do LACEN-BA. Também é consultora da tecnologia de gestão Análise e Melhoria de Processos da Secretaria de Administração do Estado da Bahia.
 
 ## Education

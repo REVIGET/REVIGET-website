@@ -43,7 +43,7 @@ about:
 <hr>
 
 :::{#about}
-
+<div style="text-align: justify">
 Possui graduação em Farmácia com habilitação em Bioquímica pela Universidade Federal do Amazonas. É especialista em Epidemiologia Aplicada aos Serviços do SUS pela Fundação Oswaldo Cruz (Fiocruz), campus Brasília. Atualmente, atua como Farmacêutica Bioquímica no Laboratório Central de Saúde Pública do Amazonas.
 
 ## Education

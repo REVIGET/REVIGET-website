@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Danna é graduanda do oitavo semestre de Biomedicina pela Universidade do Estado do Pará (UEPA) e foi bolsista de iniciação científica no Instituto Evandro Chagas (IEC). Possui experiência em simulação computacional aplicada à resistência bacteriana, com foco em M. tuberculosis, apoio em bioinformática e em análises microbiológicas focadas na detecção e caracterização de bactérias patogênicas. Além disso, atuou em inquérito de representatividade nacional, contribuindo para estudo sócio epidemiológico avaliando o quadro clínico, os recursos diagnósticos e terapêuticos disponíveis para pacientes atendidos em Hospital Universitário (HU).
 
 ## Education

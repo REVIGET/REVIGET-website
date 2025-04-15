@@ -1,0 +1,25 @@
+---
+title: Quais são as instituições do REVIGET?
+listing:
+  id: instituicoes
+page-layout: full
+---
+![](featured.jpg)
+<div style="text-align: justify">
+
+O REVIGET é um consórcio de pesquisadores que inclui representantes de instituições de diagnóstico, pesquisa e ensino superior brasileiras e internacional.
+
+- Instituto Evandro Chagas, Ananindeua, Pará, Brasil (Instituição proponente).
+- Laboratórios Central do Amazonas.
+- Laboratórios Central da Bahia.
+- Laboratórios Central do Ceará.
+- Laboratórios Central do Pará.
+- Fundação Oswaldo Cruz, Instituto Gonçalo Moniz, Salvador, Bahia, Brasil.
+- Fundação Oswaldo Cruz, Instituto Nacional de Infectologia, Rio de Janeiro, Rio de Janeiro, Brasil.
+- Fundação Oswaldo Cruz, Instituto Oswaldo Cruz, Rio de Janeiro, Rio de Janeiro, Brasil.
+- Universidade Federal do Ceará, Fortaleza, Ceará, Brasil.
+- Universidade Federal do Pará, Hospital Universitário João de Barros Barreto, Belém, Pará, Brasil.
+- Universidade do Estado do Pará, Belém, Pará, Brasil.
+- Secretaria do Estado do Pará, Belém, Pará, Brasil.
+- Stellenbosch University, Faculty of Medicine and Health Sciences, Division of Molecular Biology and Human Genetics, Tuberculosis Genomics, Cidade do Cabo, África do Sul.
+- Stellenbosch University, School for Data Science and Computational Thinking in the Faculty of Science, Centre for Epidemic Response and Innovation, Cidade do Cabo, África do Sul.

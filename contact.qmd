@@ -1,7 +1,7 @@
 ---
-title: "David J. Masiello"
+title: "Dra. Karla Lima"
 about: 
-  id: contact
+  id: contato
   template: solana
   image-shape: round
   image: people/masiello-david/avatar.png
@@ -10,13 +10,15 @@ about:
 
 
 
-:::{#contact}
+:::{#contato}
 
-#### {{< fa envelope >}} &nbsp; masiello@uw.edu
+#### {{< fa envelope >}} &nbsp; reviget@gmail.com
 
-#### {{< fa phone >}} &nbsp; 206-543-5579
+#### {{< fa phone >}} &nbsp; +55 91 3214-2116
 
-#### {{< fa map-location-dot >}} &nbsp; Department of Chemistry, CHB 304F, Seattle, WA 98195-1700
+#### {{< fa map-location-dot >}} &nbsp; Instituto Evandro Chagas - Seção de Bacteriologia, Rodovia BR-316 km 7 s/n - Levilândia, PA, 67030-000, Brazil.
+
+#### {{< fa map-location-dot >}} &nbsp; https://www.gov.br/iec/pt-br
 
 
 :::
@@ -25,10 +27,10 @@ about:
 ```{r}
 #| echo: false
 #| label: make map
-library(leaflet)
-leaflet() %>%
-  addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=-122.30830, lat=47.65297)
+# library(leaflet)
+# leaflet() %>%
+#  addTiles() %>%  # Add default OpenStreetMap map tiles
+#  addMarkers(lng=-1.37327, lat=-48.38528)
 ```
 
 <br>

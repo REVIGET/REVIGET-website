@@ -47,6 +47,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Walter André é graduado em Farmácia e Bioquímica, com especializações em Docência no Ensino Superior, Análises Clínicas, Sexologia, Citologia Clínica e Farmácia Hospitalar. Atualmente, realiza atividades no LACEN-AM, com foco no preparo das bibliotecas para sequenciamento genômico e liberação dos resultados.
 
 ## Education

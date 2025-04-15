@@ -1,20 +1,24 @@
 ---
-title: "Publications"
+title: "Publicações"
 listing:
-  - id: pubs
-    template: ../_ejs/publications.ejs
-    contents: ../publications/**/*.qmd
-    sort: "pub_number desc"
-    page-size: 30
-    filter-ui: true
-    fields: [image, pub_number, title, publication, author,url_source]
+  id: pubs
 page-layout: full
+---
+
+<div style="text-align: justify">
+
+
+**Artigo 1** | 🔗 [Acesse o artigo aqui](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1514862/full)
+
+Marcon DJ, Sharma A, Souza AB, Barros RB, Andrade VDGD, Guimarães RJPS, Lima LNG, Monteiro LHMT, Quaresma AJPG, Ribeiro LR, Suffys PN, Warren RM, Alberio CAA, Lima KVB, Conceição EC. *Comprehensive genomic surveillance reveals transmission profiles of extensively drug-resistant tuberculosis cases in Pará, Brazil*. *Front Microbiol*. 2025 Jan 22;15:1514862. PMID 39911713; PMC11794272.  
+
+
+</div>
+
+
 ---
 
 <hr>
 
 :::{#pubs}
 :::
-
-
-

@@ -1,0 +1,23 @@
+---
+title: "O que é “REVIGET”?"
+about: 
+  id: contact
+  template: solana
+page-layout: full
+
+---
+
+![](images/about.jpg){width=100%}
+
+<div style="text-align: justify">
+
+O projeto Consolidação da Rede de Vigilância Genômica da Tuberculose (REVIGET) Norte e Nordeste (N/NE) - Brasil foi estabelecido em dezembro de 2023 com financiamento do Departamento de HIV/AIDS, Tuberculose, Hepatites Virais e IST do Ministério da Saúde - DATHI/SVSA/MS e do Departamento de Ciência e Tecnologia do Ministério da Saúde – Decit/SECTICS/MS, o Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq.
+
+Além da capacitação, outros objetivos incluem a própria vigilância:
+
+- Vigilância de mutações associadas a TBDR por meio da criação e manutenção de banco de dados com informações combinadas de resultados dos testes fenotípicos laboratoriais de testes de susceptibilidade antimicrobiana (TSA) e genotípico (mutações) obtidos por meio do WGS.
+- Vigilância da distribuição de linhagens do complexo Mycobacterium tuberculosis circulantes no N/NE.
+- Vigilância da transmissão da tuberculose droga-resistente (TBDR) por meio da associação de dados do WGS e de geoprocessamento.
+- Vigilância de casos de Micobactérias Não Tuberculosas (MNT) resultantes de coinfecção com TB, desafiadoras no diagnóstico laboratorial.
+- Elaboração de recursos didáticos, instruções de trabalho e procedimento operacional padrão (POP) em português no tema do projeto.
+- Disseminação Científica e popularização da ciência por meio da educação e ações em saúde.

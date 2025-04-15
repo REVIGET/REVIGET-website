@@ -49,7 +49,7 @@ about:
 <hr>
 
 :::{#about}
-
+<div style="text-align: justify">
 Cristiane é professora titular da Faculdade de Medicina da Universidade Federal do Ceará (UFC), com experiência na área de Microbiologia, com ênfase em Microbiologia Médica e Biologia Molecular de Microrganismos. Ela atua principalmente nos temas Mycobacterium tuberculosis, M. leprae, biologia molecular de micobactérias, comparação genômica e epidemiologia molecular. Cristiane é coordenadora do Programa de Pós-graduação em Patologia (PPGPATO), coordenadora do Laboratório de Bioagentes Patogênicos de Nível de Biossegurança 3 (NB3-NBA3) e do Laboratório de Micobactérias da UFC. Ela tem orientado 16 mestrados e 3 doutorados, além de publicar 49 artigos.
 
 ## Education

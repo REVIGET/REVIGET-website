@@ -6,10 +6,10 @@ page-layout: full
 <div class="gradient-text">
 
 <div class="welcome-headline">
-Welcome to the REVIGET Consortium website.<br>
+Rede de Vigilância Genômica da Tuberculose Norte e Nordeste (REVIGET N/NE)<br>
 </div>
 <div class="welcome-subheadline">
-REDE DA VIGILÂNCIA GENÔMICA DA TUBERCULOSE N/NE
+Tuberculosis Genomic Surveillance Network North and Northeast (REVIGET N/NE)
 </div>
 </div>
 
@@ -21,7 +21,23 @@ REDE DA VIGILÂNCIA GENÔMICA DA TUBERCULOSE N/NE
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 15px;"}
 
-We are a group of researchers with diverse backgrounds in microbiology, bioinformatics, and data science working at the interface of **genomics** with **precision public health** in North and Northeast of Brazil.
+Bem-vindo ao site do Projeto REVIGET!
+
+Uma iniciativa financiada pelo CNPq, Brasil.
+
+
+
+-----
+
+
+
+Welcome to the REVIGET Project website!
+
+An initiative funded by CNPq, Brazil.
+
+
+
+
 :::
 
 :::
@@ -34,6 +50,6 @@ We are a group of researchers with diverse backgrounds in microbiology, bioinfor
 
 
 <div class="welcome-subheadline">
-REVIGET is a Project for Genomic Surveillance Network of Tuberculosis for N/NE of Brazil funded by CNPQ.
+
 </div>
 </div>

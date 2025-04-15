@@ -49,6 +49,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Marcela Kelly Astete Gómez é graduada em Biomedicina pela Universidade Tiradentes (UNIT), com especialização em Citogenética Humana pela UCSAL e mestrado em Biotecnologia em Saúde e Medicina Investigativa pela Fiocruz-BA. Com mais de 13 anos de experiência, trabalhou em Santiago, Chile, com diversas plataformas de sequenciamento de nova geração, incluindo PGM, Ion GeneStudio S5, Miseq (Illumina) e MinION (Nanopore). Atuou como analista especialista em sequenciamento, gerente de laboratório e responsável pelo Global Client Service LATAM e Brasil.
 
 ## Education

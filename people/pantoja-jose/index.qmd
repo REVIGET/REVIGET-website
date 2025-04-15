@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 José é graduando do sexto semestre de Ciências Biológicas pela Universidade do Estado do Pará (UEPA), foi bolsista de iniciação científica no Instituto Evandro Chagas (IEC). Possui experiência em análise de dados epidemiológicos com foco na epidemiologia da tuberculose.
 
 ## Education

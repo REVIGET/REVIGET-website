@@ -1,0 +1,7 @@
+---
+title: "Conheça os locais de estudo do REVIGET"
+listing: 
+  type: default
+description: 'O REVIGET N/NE inclui os sites dos seguintes estados: Amazonas, Bahia, Ceará, Pará e Rio de Janeiro.'
+page-layout: full
+---

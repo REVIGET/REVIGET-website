@@ -44,6 +44,8 @@ about:
 <hr>
 :::{#about}
 
+<div style="text-align: justify">
+
 Possui graduação em Ciências Biológicas pela Universidade de Taubaté (1994), especialização em Informática na Saúde pela Universidade Federal do Rio Grande do Norte (2022), mestrado em Sensoriamento Remoto pelo Instituto Nacional de Pesquisas Espaciais (2000), doutorado em Biomedicina pelo Instituto de Ensino e Pesquisa da Santa Casa de Belo Horizonte (2010), pós-doutorando em Ciências da Saúde pelo Instituto René Rachou/Fiocruz-MG (atual). Atualmente é Tecnologista em geoprocessamento no Instituto Evandro Chagas/SVSA/MS; Tem experiência na área de Geociências, com ênfase em Geotecnologias, Sensoriamento Remoto, Sistemas de Informação Geográfica, Epidemiologia Espacial, Saúde Pública; atuando principalmente nos seguintes temas: geoprocessamento na saúde e no meio ambiente, geotecnologia móvel, análise espacial e geoestatística.
 
 ## Education

@@ -10,7 +10,7 @@ affiliation: Stellenbosch University
 education:
   - Doutorado em Microbiologia | Universidade Federal do Rio de Janeiro e Universidade Paris-Sud <br> Mestrado em Doenças Infecciosas | Universidade Estadual do Pará) <br> Graduada em Bióloga | Universidade Federal do Pará
 
-image: avatar.jpg
+image: avatar.jpeg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -28,7 +28,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: avatar.jpeg
   links:
     - icon: envelope
       text: Email
@@ -52,7 +52,7 @@ about:
 
 
 :::{#about}
-
+<div style="text-align: justify">
 Emilyn é bióloga (Universidade Federal do Pará), com mestrado em Doenças Infecciosas (Universidade Estadual do Pará) e doutorado em Microbiologia (Universidade Federal do Rio de Janeiro/Universidade Paris-Sud). Emilyn tem experiência em ensaios clínicos e diagnósticos de rotina com foco em biologia molecular aplicada a MTBC, NTM e Mycobacterium leprae. Ela se interessa por epidemiologia, genômica, resistência a medicamentos, bioinformática e educação científica. Atualmente é pesquisadora de pós-doutorado no TB Genomics, na Universidade de Stellenbosch, Cidade do Cabo, África do Sul, desde 2021. Sua pesquisa atual se concentra em medicina personalizada por meio do WGS como parte do “Sequencing Mycobacteria and Algorithm-Determined Resistant Tuberculosis Treatment (Smartt) Trial” e “Precision Action for Rifampicin Resistant Tuberculosis (PARR-TB).
 
 ## Education

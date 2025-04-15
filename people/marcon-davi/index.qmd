@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Davi é Biotecnologista graduado pela Universidade Federal do Pará (UFPA) e atualmente é mestrando no Programa de Pós-Graduação em Biologia Parasitária na Amazônia pela Universidade do Estado do Pará (UEPA). Com foco em epidemiologia genômica, seus principais interesses incluem a busca por variantes de resistência, especialmente para novas drogas anti-TB, simulação computacional de proteínas e computação de alto desempenho utilizando pipelines desenvolvidos em Nextflow. Davi possui experiência em projetos de metagenômica e genômica, voltados para a análise de perfis de resistência, mineração de compostos de interesse biotecnológico e estudos de transmissão e perfis epidemiológicos.
 
 ## Education

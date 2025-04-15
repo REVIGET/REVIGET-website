@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Hendor é bacharel em Biotecnologia pela Universidade Federal da Bahia, com mestrado e doutorado pelo Programa Multicêntrico em Bioquímica e Biologia Molecular pela mesma instituição. Possui experiência em microbiologia e bioinformática, com estudos focados em genômica estrutural, genômica comparativa de patógenos humanos e predição de genes de resistência a antibióticos e fatores de virulência. Também realiza identificação de microrganismos através de análises filogenéticas e filogenômicas.
 
 ## Education

@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Isabel é Graduada em Ciências Biológicas pela Universidade do Estado do Pará (UEPA) e mestranda pelo Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde (PPGEVS) no Instituto Evandro Chagas (IEC). Possui experiência no fluxo de diagnóstico de micobactérias (realização de exames de Baciloscopia, Cultura e Teste de Sensibilidade) e em técnicas de biologia molecular voltadas para identificação e tipagem de patógenos bacterianos.
 
 ## Education

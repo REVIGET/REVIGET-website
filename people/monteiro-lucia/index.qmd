@@ -42,6 +42,8 @@ about:
 <hr>
 :::{#about}
 
+<div style="text-align: justify">
+
 Lúcia Helena é consultora do estado do Pará no projeto REVIGET, com foco em dados epidemiológicos. Ela é responsável por promover e disseminar as normas e tecnologias do Sistema Único de Saúde (SUS), formular políticas públicas de saúde e organizar serviços e ações para aprimorar o atendimento à saúde. Atua também no desenvolvimento de protocolos de saúde, educação permanente em saúde e no controle de indicadores epidemiológicos, visando subsidiar o estabelecimento de prioridades para alocação de recursos no setor de saúde. Ela desenvolve ações de vigilância e controle médico de saúde ocupacional, coordena programas de saúde e está envolvida na implementação de pesquisas em âmbito estadual, municipal e nacional.
 
 ## Education

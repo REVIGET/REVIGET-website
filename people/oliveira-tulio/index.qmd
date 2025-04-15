@@ -49,6 +49,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 O Prof. Tulio de Oliveira é diretor do Centre for Epidemic Response and Innovation (CERI) e da KwaZulu-Natal Research Innovation and Sequencing Platform (KRISP). Ele é professor de Bioinformática na Universidade de Stellenbosch e atua no College of Health Sciences da Universidade de KwaZulu-Natal (UKZN). Com uma carreira acadêmica destacada, foi bolsista Marie Curie na Universidade de Oxford e Newton Advanced Fellow no Wellcome Trust Sanger Institute. Seu trabalho se concentra no uso da bioinformática para entender e combater vírus e epidemias globais.
 
 ## Education

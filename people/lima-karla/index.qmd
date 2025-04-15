@@ -8,7 +8,7 @@ email: "karlalima@iec.gov.br"
 education:
   -  Doutora em Genética e Biologia Molecular (UFPA) <br> Mestre em Farmacologia de Produtos Naturais (UFPA) <br> Graduada em Farmácia (UFPA) | 1994.
 description: "Pesquisadora em Saúde Pública, coordenadora do Laboratório de Micobactérias (IEC/SVSA/MS), Profa Adjunta IV (UEPA), Bolsista de Produtividade em Pesquisa nível 2 (CNPq)"
-subtitle: "Coordenadora Geral do REVIGET."
+subtitle: "Coordenadora Geral do REVIGET"
 # project: "dmref"
 affiliation: Instituto Evandro Chagas
 image: avatar.jpg
@@ -50,7 +50,9 @@ about:
 
 :::{#about}
 
-Orientadora de iniciação científica, mestrado, doutorado e pós-doutorado. Possue experiencia em diagnóstico molecular de infecções bacterianas relacionados a assitência à saúde, infecões comunitárias, genotipagem e genômica aplicadas a transmissão e esclarecimento de surtos. Se interessa por práticas integrativas em saúde (medicina Ayurvedica, yoga, meditação), farmacologia, epidemiologia, genômica, resistência a medicamentos e educação científica. Sua pesquisa atual se concentra em medicina personalizada para tratamento de infecções por micobactérias, com apoio do Sequenciamento Genômico (WGS).
+<div style="text-align: justify">
+
+Orientadora de iniciação científica, mestrado, doutorado e pós-doutorado. Possui experiência em diagnóstico molecular de infecções bacterianas relacionados a assitência à saúde, infecões comunitárias, genotipagem e genômica aplicadas a transmissão e esclarecimento de surtos. Se interessa por práticas integrativas em saúde (medicina Ayurvedica, yoga, meditação), farmacologia, epidemiologia, genômica, resistência a medicamentos e educação científica. Sua pesquisa atual se concentra em medicina personalizada para tratamento de infecções por micobactérias, com apoio do Sequenciamento Genômico (WGS).
 
 ## Education
 {{< meta education >}}

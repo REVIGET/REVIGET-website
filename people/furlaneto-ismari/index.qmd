@@ -48,6 +48,8 @@ about:
 <hr>
 :::{#about}
 
+<div style="text-align: justify">
+
 Ismari é Doutora em Biologia Parasitária na Amazônia pelo Programa de Pós-Graduação em Biologia Parasitária na Amazônia/Universidade do Estado do Pará/Instituto Evandro Chagas, Mestre em Doenças Tropicais pelo Programa de Pós-Graduação em Doenças Tropicais/Núcleo de Medicina Tropical/Universidade Federal do Pará, Especialista em Educação em Saúde pelo Centro de Desenvolvimento de Educação Médica/Faculdade de Medicina da Universidade de São Paulo e Bacharel em Farmácia pelo Centro Universitário do Estado do Pará. Atualmente, é coordenadora de avaliação do curso de Medicina do Centro Universitário Metropolitano da Amazônia (UNIFAMAZ), docente do curso de Medicina do Centro Universitário do Estado do Pará (CESUPA), coordenadora de Trabalho de Conclusão de Curso do curso de Medicina do CESUPA e docente permanente do Mestrado Profissional em Ensino em Saúde - Educação Médica (ESEM) do CESUPA. Além disso, é revisora da Revista Brasileira de Educação Médica (RBEM). Suas linhas de pesquisa incluem Educação Médica, Genética Molecular e de Microorganismos e Imunologia.
 
 ## Education

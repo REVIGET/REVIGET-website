@@ -43,7 +43,7 @@ about:
 <hr>
 
 :::{#about}
-
+<div style="text-align: justify">
 Doutorando do Programa de Pós-Graduação em Biologia Parasitária na Amazônia (PPG-BPA-IEC) e Mestre em Biologia Parasitária na Amazônia (PPG-BPA-IEC). Graduado em Farmácia pela Universidade Federal do Pará (1998), com especializações em Análises Clínicas com Ênfase no Diagnóstico Laboratorial de Doenças Tropicais (UFPA, 2005) e em Gestão de Assistência Farmacêutica (UFSC, 2012). Possui experiência em gestão na área de Assistência Farmacêutica, Análises Clínicas e Microbiológicas, com ênfase em Bacteriologia e Micologia Clínica. Na área de Biologia Molecular, é o técnico responsável pelo sequenciamento Sanger e pela identificação de MNT na Seção de Bacteriologia do IEC, além de ministrar treinamentos em sequenciamento Sanger.
 
 ## Education

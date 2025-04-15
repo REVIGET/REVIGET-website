@@ -38,7 +38,7 @@ about:
 
 <hr>
 :::{#about}
-
+<div style="text-align: justify">
 Rafaella é graduada em farmácia com habilitação em Bioquímica pelo Centro Universitário do Estado do Pará. Ela é especialista em Toxicologia pela Universidade Federal do Pará e em Atenção Farmacêutica pelo Centro Universitário do Estado do Pará. Atualmente, é servidora pública estadual na Secretaria de Estado de Saúde (SESPA), atuando na Seção de Bacteriologia e Micologia do Laboratório Central do Estado do Pará (LACEN-PA), onde é responsável pelo setor de Micobactérias. Desenvolve atividades de monitoramento das redes laboratoriais, como TRM-TB, Cultura Ogawa, Baciloscopia e IGRA, e realiza exames de cultura, teste de sensibilidade e técnicas de biologia molecular.
 
 ## Education

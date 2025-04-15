@@ -49,7 +49,7 @@ about:
 <hr>
 
 :::{#about}
-
+<div style="text-align: justify">
 Emmily é farmacêutica (Universidade da Amazônia), mestre em Biologia Parasitária na Amazônia (Universidade do Estado do Pará) e doutoranda pelo mesmo programa, e atua como docente. Atua em áreas relacionadas a farmácia clínica, farmacoeconomia e epidemiologia. Atualmente, dentro do presente projeto, trabalha com análise de custos.
 
 ## Education

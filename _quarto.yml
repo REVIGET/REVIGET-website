@@ -31,17 +31,21 @@ website:
     background: "#F6F5F3"
     logo-alt: "REVIGET Consortium"
     left:
+      - href: about.qmd
+        text: Sobre nós
+      - href: instituicoes/index.qmd
+        text: instituições
       - href: people/index.qmd
         text: pessoas
-#      - href: research/index.qmd
-#      - href: publications/index.qmd
+      - href: sites/index.qmd
+        text: locais
+      - href: publications/index.qmd
 #      - text: "NSF DMREF"
 #        href: dmref/index.qmd
 #      - href: codes/index.qmd
 #        text: Codes
-#      - href: news/index.qmd
-#      - href: contact.qmd
-#        text: Contact
+      - href: contact.qmd
+        text: contato
 
   sidebar:
 #  link each group of sidebar entries with a navbar entry by matching their titles and listing the page linked from the navbar as the first content in the sidebar

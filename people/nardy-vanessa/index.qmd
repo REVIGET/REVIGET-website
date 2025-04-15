@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Vanessa é graduada em Ciências Biológicas pela Universidade Estadual do Sudoeste da Bahia e mestre em Biotecnologia em Saúde e Medicina Investigativa pela Fundação Oswaldo Cruz. Atualmente, é analista clínica no Laboratório Central de Saúde Pública da Bahia (LACEN-BA), com atuação no setor de Vigilância Genômica. Possui vasta experiência em diagnóstico molecular de microrganismos de relevância para a saúde pública.
 
 ## Education

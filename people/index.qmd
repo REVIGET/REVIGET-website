@@ -1,5 +1,5 @@
 ---
-title: "Quem somos? - Conheça o nosso valioso time!"
+title: "Quem somos?"
 listing:
   - id: pi
     include:
@@ -8,16 +8,6 @@ listing:
       external: true
     template: ../_ejs/people-box.ejs
     type: grid
-    fields: [title, subtitle, image, education]
-  - id: piregional
-    include:
-      people_group: "piregional"
-      group: "piregional"
-    exclude:
-      external: true
-    template: ../_ejs/people-box.ejs
-    type: grid
-    fields: [title, subtitle, image, education]
   - id: para
     include:
       group: "para"
@@ -26,7 +16,6 @@ listing:
       people_group: "pi"
     template: ../_ejs/people-box.ejs
     type: grid
-    fields: [title, subtitle, image, education]
   - id: amazonas
     include:
       group: "amazonas"
@@ -37,7 +26,6 @@ listing:
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education]
   - id: ceara
     include:
       group: "ceara"
@@ -48,7 +36,6 @@ listing:
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education]
   - id: bahia
     include:
       group: "bahia"
@@ -59,7 +46,6 @@ listing:
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education]
   - id: riodejaneiro
     include:
       group: "riodejaneiro"
@@ -70,7 +56,6 @@ listing:
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education]
   - id: capacitadores
     include:
       group: "capacitadores"
@@ -79,7 +64,6 @@ listing:
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education]
   - id: colaboradores
     include:
       group: "colaboradores"
@@ -88,7 +72,14 @@ listing:
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education]
+  - id: piregional
+    include:
+      people_group: "piregional"
+      group: "piregional"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
 ---
 
 
@@ -96,18 +87,9 @@ listing:
 ::: {#pi}
 :::
 
-## Coordenação Regional 🇧🇷
-::: {#piregional}
-:::
-
 
 ## Capacitadores 🇿🇦 🇧🇷 🇮🇳
 ::: {#capacitadores}
-:::
-
-## Colaboradores 🇧🇷
-
-::: {#colaboradores}
 :::
 
 
@@ -128,4 +110,13 @@ listing:
 
 ## Bahia 🇧🇷
 ::: {#bahia}
+:::
+
+## Coordenação Regional 🇧🇷
+::: {#piregional}
+:::
+
+## Rio de Janeiro 🇧🇷
+
+::: {#colaboradores}
 :::

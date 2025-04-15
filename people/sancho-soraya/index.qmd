@@ -50,6 +50,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Soraya é pós-doutora em Biotecnologia pela Universidade Federal do Ceará (UFC), com experiência em microbiologia, biologia molecular e processos biotecnológicos. Ela tem vasta experiência em Tecnologia de Alimentos, atuando como responsável técnica do Laboratório de Micobactérias da Faculdade de Medicina da UFC. No REVIGET, Soraya participa da capacitação para Sequenciamento Genômico e Bioinformática e no gerenciamento das amostras clínicas.
 
 ## Education

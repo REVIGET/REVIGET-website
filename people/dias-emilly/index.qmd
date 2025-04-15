@@ -44,7 +44,7 @@ about:
 
 <hr>
 :::{#about}
-
+<div style="text-align: justify">
 Emilly é biomédica formada pela Universidade da Amazônia, com mestrado e doutorado em andamento em Biologia Parasitária na Amazônia pela Universidade do Estado do Pará (UEPA/IEC). Sua pesquisa se concentra na epidemiologia da tuberculose, com ênfase na análise de big data para entender os padrões de disseminação da doença. A integração de dados em larga escala visa o desenvolvimento de estratégias mais eficazes de controle e prevenção, levando em consideração as particularidades regionais da Amazônia. Emilly possui ampla experiência na interpretação de dados epidemiológicos e estatísticos, contribuindo para o avanço do conhecimento científico sobre doenças infecciosas, especialmente a tuberculose.
 
 ## Education

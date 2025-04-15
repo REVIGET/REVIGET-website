@@ -1,0 +1,36 @@
+---
+title: "Dra. Karla Lima"
+about: 
+  id: contato
+  template: solana
+  image-shape: round
+  image: people/masiello-david/avatar.png
+# page-layout: full
+---
+
+
+
+:::{#contato}
+
+#### {{< fa envelope >}} &nbsp; reviget@gmail.com
+
+#### {{< fa phone >}} &nbsp; +55 91 3214-2116
+
+#### {{< fa map-location-dot >}} &nbsp; Instituto Evandro Chagas - Seção de Bacteriologia, Rodovia BR-316 km 7 s/n - Levilândia, PA, 67030-000, Brazil.
+
+#### {{< fa solid fa-globe >}} &nbsp; https://www.gov.br/iec/pt-br
+
+
+:::
+
+
+```{r}
+#| echo: false
+#| label: make map
+# library(leaflet)
+# leaflet() %>%
+#  addTiles() %>%  # Add default OpenStreetMap map tiles
+#  addMarkers(lng=-1.37327, lat=-48.38528)
+```
+
+<br>

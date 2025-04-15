@@ -44,6 +44,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Ingrid é biomédica graduada pela União Metropolitana de Educação e Cultura (UNIME), com interesse em epidemiologia genômica. Atua na identificação de genes de resistência a antibióticos utilizando ferramentas de bioinformática, e realiza estudos com foco em M. tuberculosis na cidade de Salvador (Bahia).
 
 ## Education

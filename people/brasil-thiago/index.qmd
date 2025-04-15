@@ -49,7 +49,7 @@ about:
 <hr>
 
 :::{#about}
-
+<div style="text-align: justify">
 Thiago é mestre em Patologia com ênfase em Doenças Infecto-parasitárias pela Faculdade de Medicina da Universidade Federal do Ceará (UFC). Ele possui graduação em Biomedicina e especialização em Microbiologia Clínica, com experiência em microbiologia molecular e biotecnologia. No REVIGET, ele é responsável pelo gerenciamento das amostras clínicas, apoio na capacitação para Sequenciamento Genômico e Bioinformática, além de atuar em cultivos, extração e preparo de bibliotecas e análise dos dados.
 
 ## Education

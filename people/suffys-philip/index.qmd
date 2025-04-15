@@ -49,6 +49,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Dr. Philip Noel Suffys possui graduação em Biologia pela Rijksuniversiteit te Gent (1985) e doutorado em Biologia Molecular pela mesma instituição (1989). Atualmente é chefe do Laboratório de Biologia Molecular Aplicada em Micobactérias (LABMAM) do Instituto Oswaldo Cruz da Fiocruz. Ele tem vasta experiência nas áreas de Biologia Celular, Genética, Microbiologia e Biotecnologia, com foco em doenças micobacterianas, estudando tanto os patógenos quanto os hospedeiros. Entre 2015-2016, fez pós-doutorado no Instituto de Medicina Tropical em Antuerpia e colaborou em diversos projetos de pesquisa em tuberculose, microbacteriose e hanseníase no Brasil e outros países.
 
 ## Education

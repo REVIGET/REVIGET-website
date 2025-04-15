@@ -49,6 +49,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Maria Cristina da Silva Lourenço é graduada em Farmácia pela Universidade Federal do Rio de Janeiro (UFRJ), com mestrado em Microbiologia pela mesma instituição. É pesquisadora em saúde da Fiocruz e diretora do Laboratório de Bacteriologia e Bioensaios do INI, onde atua como referência regional para micobactérias. Sua experiência inclui microbiologia clínica, tuberculose, micobactérias e multirresistência, além de detecção de atividade antimicrobiana e bioensaios para sinergismo bactericida.
 
 ## Education

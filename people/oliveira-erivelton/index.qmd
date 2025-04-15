@@ -44,6 +44,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Erivelton é farmacêutico Bioquímico pela Universidade Federal da Bahia (UFBA), com especialização em Saúde Coletiva (ISC/UFBA), sanitarista (ESPBA) e mestre pela Fiocruz/Bahia. Atua no Laboratório de Micobacteriologia do LACEN-BA e no Laboratório Central do Hospital das Clínicas da UFBA (HUPES/UFBA), com experiência no diagnóstico laboratorial de doenças de interesse da Saúde Pública.
 
 ## Education

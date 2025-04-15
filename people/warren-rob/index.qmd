@@ -1,7 +1,7 @@
 ---
-title: &TITLE Rob Warren
+title: &TITLE Robin Warren
 last: Warren
-first: Rob
+first: Robin
 people_group: "stellenbosch"
 group: "capacitadores"
 email: rw1@sun.ac.za
@@ -48,6 +48,7 @@ about:
 <hr>
 
 :::{#about}
+<div style="text-align: justify">
 
 O Prof. Rob Warren obteve seu doutorado em Bioquímica pela Universidade de Cape Town em 1995. Em 2015, foi nomeado Professor Distinto na Universidade de Stellenbosch e, em 2017, diretor da Unidade do Centro de Pesquisa de Tuberculose. Seus projetos de pesquisa envolvem o estudo das dinâmicas da tuberculose, resistência a medicamentos, desenvolvimento de novos diagnósticos e epigenética micobacteriana. Seu trabalho na África do Sul é amplamente reconhecido e considerado um patrimônio nacional.
 

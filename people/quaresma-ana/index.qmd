@@ -41,6 +41,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Mestre em Biologia Parasitária na Amazônia pela Universidade do Estado do Pará. Graduada em Farmácia pelo Centro Universitário do Estado do Pará, Especialista em Análises Clínicas com ênfase no Diagnóstico de Doenças Tropicais pela Universidade Federal do Pará. Chefe da Seção de Bacteriologia e Micologia do Instituto Evandro Chagas (IEC-PA). Tem experiência em Microbiologia, atuando principalmente no diagnóstico microbiológico e molecular de agravos de origem bacteriana, bem como na investigação fenotípica e molecular de mecanismos de resistência bacteriana.
 
 ## Education

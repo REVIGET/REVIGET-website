@@ -42,7 +42,7 @@ about:
 <hr>
 
 :::{#about}
-
+<div style="text-align: justify">
 Leonardo Bruno Paz Ferreira Barreto é graduado em Farmácia com Habilitação em Bioquímica pela Universidade Federal do Rio de Janeiro (UFRJ), com mestrado em Pesquisa Clínica em Doenças Infecciosas pelo Instituto Nacional de Infectologia Evandro Chagas (INI) - FIOCRUZ. Ele tem experiência na área de Microbiologia Clínica com ênfase em Micobactérias e também atua na área de Gestão da Qualidade em laboratórios de análises clínicas. Atualmente, é Tecnologista em Saúde Pública no Laboratório de Bacteriologia e Bioensaios do INI - FIOCRUZ, realizando atividades de diagnóstico laboratorial e pesquisas clínicas, com ênfase em bioensaios para atividade antimicrobiana.
 
 ## Education

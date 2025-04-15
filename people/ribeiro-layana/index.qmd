@@ -47,6 +47,8 @@ about:
 
 :::{#about}
 
+<div style="text-align: justify">
+
 Layana é graduada em Ciências Biológicas (UEPA) e mestranda pelo Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde (PPGEVS) no Instituto Evandro Chagas (IEC). Layana possui experiência na prática e execução do sequenciamento do genoma completo de micobactérias, com ênfase em Mycobacterium tuberculosis. Atualmente, está envolvida em pesquisas e práticas laboratoriais em biologia molecular, aplicadas ao estudo de patógenos bacterianos, com especial interesse em doenças causadas por micobactérias, particularmente as relacionadas à tuberculose. Seu principal interesse reside nas áreas de resistência bacteriana, abordagens moleculares, epidemiológicas e genômicas para o estudo de patógenos.
 
 ## Education
