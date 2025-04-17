@@ -329,6 +329,59 @@
     "text": "Rede de Vigilância Genômica da Tuberculose Norte e Nordeste (REVIGET N/NE)\n\n\nTuberculosis Genomic Surveillance Network North and Northeast (REVIGET N/NE)\n\n\n\n\n\n\n\nBem-vindo ao site do Projeto REVIGET!\nUma iniciativa financiada pelo CNPq, Brasil.\n\nWelcome to the REVIGET Project website!\nAn initiative funded by CNPq, Brazil."
   },
   {
+    "objectID": "dmref/publications/index.html",
+    "href": "dmref/publications/index.html",
+    "title": "\nNSF DMREF Publications\n",
+    "section": "",
+    "text": "NSF DMREF Publications\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "dmref/index.html",
+    "href": "dmref/index.html",
+    "title": "\nNSF DMREF\n",
+    "section": "",
+    "text": "NSF DMREF\n\n\nA National Science Foundation-funded collaboration between\n\n\n\n\n\n\nWelcome\n\nThermal energy, or heat, flows naturally from hot to cold, making it difficult to create localized thermal “hot spots” even when heat is applied to a single spot. Touching a hot pan’s lid provides a simple and all too familiar example of such thermal conduction. As a material’s size is reduced to 10-100s of nanometers, or about 1,000 times smaller than a human hair, depositing and maintaining thermal energy within a small region of space becomes even more challenging. Yet the ability to control heat flow and thus temperature at nanoscopic dimensions has important implications for applications ranging from data storage and local chemical reaction control to photothermal therapies for disease treatment and pain management through ion channel stimulation.\nWith support from the National Science Foundation Designing Materials to Revolutionize and Engineer our Future (DMREF) Program, Professor David J. Masiello from the University of Washington, Professor Katherine A. Willets from Temple University, and Professor Stephan Link from Rice University are developing methods to theoretically design and experimentally realize a new class of materials capable of controllably directing temperature increases to nanoscale regions of space using light. Beyond impacting a wide variety of applications, the project is also facilitating the interdisciplinary training of students and postdoctoral researchers through student exchange between the three research groups.",
+    "crumbs": [
+      "Sobre nós",
+      "Welcome to REVIGET"
+    ]
+  },
+  {
+    "objectID": "dmref/codes/index.html",
+    "href": "dmref/codes/index.html",
+    "title": "\nComputer Codes\n",
+    "section": "",
+    "text": "Computer Codes\n\n\nRelevant GitHub repositories:\n\n\nT-DDA: Thermal Discrete Dipole Approximation\nThis code calculates the steady-state temperature distribution of nanoparticles on a semi-infinite substrate, embedded in a semi-infinite background medium by solving the discretized steady-state heat diffusion equation.\nConfocal Photothermal Image Pipeline\nThis set of files creates confocal photothermal images by calculating the light scattered by metallic nanoparticle assemblies."
+  },
+  {
+    "objectID": "codes/index.html",
+    "href": "codes/index.html",
+    "title": "Masiello Group Codes",
+    "section": "",
+    "text": "See our Github site for relevant group codes:\n\nT-DDA: Thermal Discrete Dipole Approximation\nThis code calculates the steady-state temperature distribution of nanoparticles on a semi-infinite substrate, embedded in a semi-infinite background medium by solving the discretized steady-state heat diffusion equation.\ne-DDA: Electron Beam Driven Discrete Dipole Approximation\nThis code is a modified version of Draine’s Discrete Dipole Approximation (DDA) code version 7.1. We have modified the code to to allow for an electron beam excitation source. The code computes the electron energy loss spectroscopy (EELS) and angle-resolved cathodoluminescence (CL) for both aloof and internal geometries.\nConfocal Photothermal Image Pipeline\nThis set of files creates confocal photothermal images by calculating the light scattered by metallic nanoparticle assemblies."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "O que é “REVIGET”?",
+    "section": "",
+    "text": "O projeto Consolidação da Rede de Vigilância Genômica da Tuberculose (REVIGET) Norte e Nordeste (N/NE) - Brasil foi estabelecido em dezembro de 2023 com financiamento do Departamento de HIV/AIDS, Tuberculose, Hepatites Virais e IST do Ministério da Saúde - DATHI/SVSA/MS e do Departamento de Ciência e Tecnologia do Ministério da Saúde – Decit/SECTICS/MS, o Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq.\nAlém da capacitação, outros objetivos incluem a própria vigilância:\n\nVigilância de mutações associadas a TBDR por meio da criação e manutenção de banco de dados com informações combinadas de resultados dos testes fenotípicos laboratoriais de testes de susceptibilidade antimicrobiana (TSA) e genotípico (mutações) obtidos por meio do WGS.\nVigilância da distribuição de linhagens do complexo Mycobacterium tuberculosis circulantes no N/NE.\nVigilância da transmissão da tuberculose droga-resistente (TBDR) por meio da associação de dados do WGS e de geoprocessamento.\nVigilância de casos de Micobactérias Não Tuberculosas (MNT) resultantes de coinfecção com TB, desafiadoras no diagnóstico laboratorial.\nElaboração de recursos didáticos, instruções de trabalho e procedimento operacional padrão (POP) em português no tema do projeto.\nDisseminação Científica e popularização da ciência por meio da educação e ações em saúde."
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Fale conosco e nos siga :)",
+    "section": "",
+    "text": "Para nos contatar envie e-mail ou contate a coordenadora do projeto - Dra Karla Lima:\n\n   reviget@gmail.com\n\n\n   +55 91 3214-2116\n\n\n   Instituto Evandro Chagas - Seção de Bacteriologia, Rodovia BR-316 km 7 s/n - Levilândia, PA, 67030-000, Brazil.\n\n\n   gov.br/iec\n\nNos siga nas redes sociais para ficar por dentro das nossas atividades:\n\n\n   @reviget\n\n\n   linkedin.com/company/reviget\n\n\n   @revigetbrasil"
+  },
+  {
+    "objectID": "dmref/data/index.html",
+    "href": "dmref/data/index.html",
+    "title": "\nDMREF Team Data\n",
+    "section": "",
+    "text": "DMREF Team Data\n\n\n\n\n\n\nTemperature dependent refractive index data for gold"
+  },
+  {
     "objectID": "dmref/people/index.html#principal-investigators",
     "href": "dmref/people/index.html#principal-investigators",
     "title": "\nThe NSF DMREF Team\n",
@@ -362,64 +415,25 @@
     ]
   },
   {
-    "objectID": "dmref/data/index.html",
-    "href": "dmref/data/index.html",
-    "title": "\nDMREF Team Data\n",
+    "objectID": "eventos/index.html",
+    "href": "eventos/index.html",
+    "title": "EVENTOS de Capacitação E DISSEMINACAO CIENTÍFICA",
     "section": "",
-    "text": "DMREF Team Data\n\n\n\n\n\n\nTemperature dependent refractive index data for gold"
+    "text": "Webinário - Dia Mudial de Combate à Tuberculose 31 de março de 2025: Link para a gravação do evento (em andamento).\nTreinamento continuado computacional em Bionformática - 24 encontros online - em andamento."
   },
   {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Dra. Karla Lima",
+    "objectID": "eventos/index.html#ano-2025",
+    "href": "eventos/index.html#ano-2025",
+    "title": "EVENTOS de Capacitação E DISSEMINACAO CIENTÍFICA",
     "section": "",
-    "text": "reviget@gmail.com\n\n\n   +55 91 3214-2116\n\n\n   Instituto Evandro Chagas - Seção de Bacteriologia, Rodovia BR-316 km 7 s/n - Levilândia, PA, 67030-000, Brazil.\n\n\n   https://www.gov.br/iec/pt-br"
+    "text": "Webinário - Dia Mudial de Combate à Tuberculose 31 de março de 2025: Link para a gravação do evento (em andamento).\nTreinamento continuado computacional em Bionformática - 24 encontros online - em andamento."
   },
   {
-    "objectID": "codes/index.html",
-    "href": "codes/index.html",
-    "title": "Masiello Group Codes",
-    "section": "",
-    "text": "See our Github site for relevant group codes:\n\nT-DDA: Thermal Discrete Dipole Approximation\nThis code calculates the steady-state temperature distribution of nanoparticles on a semi-infinite substrate, embedded in a semi-infinite background medium by solving the discretized steady-state heat diffusion equation.\ne-DDA: Electron Beam Driven Discrete Dipole Approximation\nThis code is a modified version of Draine’s Discrete Dipole Approximation (DDA) code version 7.1. We have modified the code to to allow for an electron beam excitation source. The code computes the electron energy loss spectroscopy (EELS) and angle-resolved cathodoluminescence (CL) for both aloof and internal geometries.\nConfocal Photothermal Image Pipeline\nThis set of files creates confocal photothermal images by calculating the light scattered by metallic nanoparticle assemblies."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "O que é “REVIGET”?",
-    "section": "",
-    "text": "O projeto Consolidação da Rede de Vigilância Genômica da Tuberculose (REVIGET) Norte e Nordeste (N/NE) - Brasil foi estabelecido em dezembro de 2023 com financiamento do Departamento de HIV/AIDS, Tuberculose, Hepatites Virais e IST do Ministério da Saúde - DATHI/SVSA/MS e do Departamento de Ciência e Tecnologia do Ministério da Saúde – Decit/SECTICS/MS, o Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq.\nAlém da capacitação, outros objetivos incluem a própria vigilância:\n\nVigilância de mutações associadas a TBDR por meio da criação e manutenção de banco de dados com informações combinadas de resultados dos testes fenotípicos laboratoriais de testes de susceptibilidade antimicrobiana (TSA) e genotípico (mutações) obtidos por meio do WGS.\nVigilância da distribuição de linhagens do complexo Mycobacterium tuberculosis circulantes no N/NE.\nVigilância da transmissão da tuberculose droga-resistente (TBDR) por meio da associação de dados do WGS e de geoprocessamento.\nVigilância de casos de Micobactérias Não Tuberculosas (MNT) resultantes de coinfecção com TB, desafiadoras no diagnóstico laboratorial.\nElaboração de recursos didáticos, instruções de trabalho e procedimento operacional padrão (POP) em português no tema do projeto.\nDisseminação Científica e popularização da ciência por meio da educação e ações em saúde."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Dra. Karla Lima",
-    "section": "",
-    "text": "reviget@gmail.com\n\n\n   +55 91 3214-2116\n\n\n   Instituto Evandro Chagas - Seção de Bacteriologia, Rodovia BR-316 km 7 s/n - Levilândia, PA, 67030-000, Brazil.\n\n\n   https://www.gov.br/iec/pt-br"
-  },
-  {
-    "objectID": "dmref/codes/index.html",
-    "href": "dmref/codes/index.html",
-    "title": "\nComputer Codes\n",
-    "section": "",
-    "text": "Computer Codes\n\n\nRelevant GitHub repositories:\n\n\nT-DDA: Thermal Discrete Dipole Approximation\nThis code calculates the steady-state temperature distribution of nanoparticles on a semi-infinite substrate, embedded in a semi-infinite background medium by solving the discretized steady-state heat diffusion equation.\nConfocal Photothermal Image Pipeline\nThis set of files creates confocal photothermal images by calculating the light scattered by metallic nanoparticle assemblies."
-  },
-  {
-    "objectID": "dmref/index.html",
-    "href": "dmref/index.html",
-    "title": "\nNSF DMREF\n",
-    "section": "",
-    "text": "NSF DMREF\n\n\nA National Science Foundation-funded collaboration between\n\n\n\n\n\n\nWelcome\n\nThermal energy, or heat, flows naturally from hot to cold, making it difficult to create localized thermal “hot spots” even when heat is applied to a single spot. Touching a hot pan’s lid provides a simple and all too familiar example of such thermal conduction. As a material’s size is reduced to 10-100s of nanometers, or about 1,000 times smaller than a human hair, depositing and maintaining thermal energy within a small region of space becomes even more challenging. Yet the ability to control heat flow and thus temperature at nanoscopic dimensions has important implications for applications ranging from data storage and local chemical reaction control to photothermal therapies for disease treatment and pain management through ion channel stimulation.\nWith support from the National Science Foundation Designing Materials to Revolutionize and Engineer our Future (DMREF) Program, Professor David J. Masiello from the University of Washington, Professor Katherine A. Willets from Temple University, and Professor Stephan Link from Rice University are developing methods to theoretically design and experimentally realize a new class of materials capable of controllably directing temperature increases to nanoscale regions of space using light. Beyond impacting a wide variety of applications, the project is also facilitating the interdisciplinary training of students and postdoctoral researchers through student exchange between the three research groups.",
-    "crumbs": [
-      "Sobre nós",
-      "Welcome to REVIGET"
-    ]
-  },
-  {
-    "objectID": "dmref/publications/index.html",
-    "href": "dmref/publications/index.html",
-    "title": "\nNSF DMREF Publications\n",
-    "section": "",
-    "text": "NSF DMREF Publications\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
+    "objectID": "eventos/index.html#ano-2024",
+    "href": "eventos/index.html#ano-2024",
+    "title": "EVENTOS de Capacitação E DISSEMINACAO CIENTÍFICA",
+    "section": "ANO 2024",
+    "text": "ANO 2024\n\nESTADO DO AMAZONAS\nPeríodo: 11 a 14 de novembro de 2024. Feriado no dia 15.\nDia do Workshop: 11 de novembro de 2024, das 08:30 às 12:00.\nLocal do workshop: Av. Torquato Tapajós, 4.010 - Col. Santo Antônio, Manaus - AM (Auditório da Fundação de Vigilância em Saúde).\nLocal laboratorial: LACEN-PA: Rua Emílio Moreira 528, Centro, Manaus-AM, 69020-040.\nLocal Bioinformática: EDUCAR-AM.\nCronograma das atividades:\n\n\n\n\n\n\n\n\n\nDia\nPeríodo\nAtividade\nFacilitador\n\n\n\n\n1\nManhã\nWorkshop REVIGET: Enfrentamento da tuberculose e micobacterioses no SUS com tecnologias de NGS.  08:30–09:00: Credenciamento (MSc. Alex Brito, MSc. Abhinav Sharma)  09:00–09:10: Abertura (Dra. Adriana Ayden)  09:10–09:30: Mesa (Dr. Marco de Oliveira)  09:30–09:45: P1 “O Projeto Consolidação da REVIGET N/NE” (Dra. Karla Lima)  09:45–10:00: P2 “Situação da Tuberculose no Brasil e no Amazonas” (Dr. Maurício Ogusku)  10:00–10:20: P3 “Diagnóstico de Micobactérias e Tecnologias de NGS” (Dra. Emilyn Costa)  10:20–10:50: Coffee-Break  10:50–11:15: P4 “Acelerando o fluxo de diagnóstico por WGS” (Dra. Emilyn Costa)  11:15–11:45: Q&A (Dra. Adriana Ayden & mesa)  11:45–12:00: Encerramento (Dra. Adriana Ayden, Dra. Karla Lima)\nGrupo REVIGET e convidados\n\n\n\nTarde\nInativação, extração do DNA micobacteriano e controle de qualidade.\nEmilyn\n\n\n2\nManhã\nNormalização do DNA e início do preparo de biblioteca.\nEmilyn\n\n\n\nTarde\nContinuação do preparo de biblioteca.\nEmilyn\n\n\n3\nManhã\nFinalização do preparo de biblioteca e controle de qualidade.\nEmilyn\n\n\n\nTarde\nInício do sequenciamento; introdução a computadores.\nEmilyn\n\n\n4\nManhã\nPipelines e sessão interativa no Gitpod; Pipeline MAGMA no Gitpod.\nAbhinav\n\n\n\nTarde\nExecução do Pipeline MAGMA na plataforma Seqera; interpretação de resultados.\nAbhinav\n\n\n5\nManhã/Tarde\nFERIADO – Atividade social: visita ao centro histórico de Manaus e ao Teatro Amazonas.\nTodos\n\n\n\n\n\n\nESTADO DO CEARÁ\nPeríodo: 18 a 22 de novembro de 2024. Feriado no dia 20.\nDia do Workshop: 21 de novembro de 2024, das 08:30 às 12:00.\nLocal do workshop: Auditório da Escola de Saúde Pública, Av. Antônio Justa, 3161 – Meireles, Fortaleza – CE.\nLocal laboratorial: Lacen-Ceará, Av. Barão de Studart, 2405 – Dionísio Torres, Fortaleza – CE.\nLocal computacional: 1º dia: Escola de Saúde Pública; 2º dia: Sala de aula do Programa de Pós‑graduação em Patologia, Dep. de Patologia e Medicina Legal, FM-UFC.\n\n\n\n\n\n\n\n\n\nDia\nPeríodo\nAtividade\nFacilitador\n\n\n\n\n1\nManhã\nInativação da bactéria, extração do DNA micobacteriano e controle de qualidade; Normalização do DNA e início do preparo de biblioteca.\nEmilyn\n\n\n\nTarde\nContinuação do preparo de biblioteca.\nEmilyn\n\n\n2\nManhã\nContinuação do preparo de biblioteca.\nEmilyn\n\n\n\nTarde\nFinalização do preparo de biblioteca e controle de qualidade; início do sequenciamento.\nEmilyn\n\n\n3\nManhã\nWorkshop REVIGET:  08:30–09:00: Credenciamento (MSc. Alex Brito, MSc. Thiago Brasil)  09:00–09:10: Abertura (Dra. Cristiane Frota)  09:10–09:30: Mesa (Dra. Cristiane Frota)  09:30–09:45: P1 “Consolidação da REVIGET N/NE” (Dra. Cristiane Frota)  09:45–10:00: P2 “Situação da Tuberculose no Brasil e no Ceará” (Dr. Carlos Garcia Filho)  10:00–10:20: P3 “Diagnóstico de Micobactérias e Tecnologias de NGS” (Dra. Emilyn Costa)  10:20–10:50: Coffee-Break  10:50–11:15: P4 “Acelerando o fluxo de diagnóstico por WGS” (Dra. Emilyn Costa)  11:15–11:45: Q&A (Dra. Cristiane Frota & mesa)  11:45–12:00: Encerramento (Dra. Cristiane Frota)\nGrupo REVIGET e convidados\n\n\n\nTarde\nInício aos computadores; Pipeline MAGMA no Gitpod e Google Cloud.\nAbhinav\n\n\n4\nManhã\nPipeline MAGMA no Google Cloud pela plataforma Seqera.\nAbhinav\n\n\n\nTarde\nInterpretação dos resultados de MAGMA.\nAbhinav / Emilyn\n\n\n\n\n\n\nESTADO DO PARÁ\nPeríodo: 25 a 29 de novembro de 2024.\nDia do Workshop: 29 de novembro de 2024, das 08:30 às 12:00.\nLocal do workshop & Treinamento Laboratorial: Av. Augusto Montenegro, 524 – Parque Guajará, Belém‑PA (Auditório LACEN‑PA).\n\n\n\n\n\n\n\n\n\nDia\nPeríodo\nAtividade\nFacilitador\n\n\n\n\n25\nManhã\nInativação, extração do DNA micobacteriano e controle de qualidade.\nDavi e Alex\n\n\n26\nManhã\nNormalização do DNA e início do preparo de biblioteca (tagmentação, limpeza pós‑tagmentação e amplificação).\nDavi e Alex\n\n\n27\nManhã\nContinuação do preparo de bibliotecas: limpeza, controle de qualidade (Qubit e LabChip).\nDavi e Alex\n\n\n28\nManhã\nInício do sequenciamento: diluição das bibliotecas para 4 nM, pool, desnaturação e diluição com PhiX; configuração do MiSeq e início do sequenciamento.\nDavi e Alex\n\n\n29\nManhã\nWorkshop REVIGET:  08:30–09:00: Credenciamento (MSc. Alex Brito, MSc. Emilly Dias)  09:00–09:05: Abertura (Dra. Karla Lima)  09:05–09:15: Mesa  09:15–09:45: P1 “Consolidação da REVIGET N/NE…” (Dra. Karla Lima)  09:45–10:00: P2 “Situação da Tuberculose no Brasil e no Pará” (Dr. Carlos Albério)  10:00–10:15: P3 “Diagnóstico de Micobactérias e NGS” (Dra. Karla Lima)  10:15–10:30: Coffee-Break  10:30–10:45: P4 “NGS a partir do Escarro” (Davi Marcon)  10:45–10:55: Q&A (Dra. Karla Lima)  10:55–11:00: Encerramento (Dra. Karla Lima)\nGrupo REVIGET e convidados\n\n\n\n\n\n\nESTADO DA BAHIA\nPeríodo: 02 a 06 de dezembro de 2024.\nDia do Workshop: 02 de dezembro de 2024, das 08:30 às 12:00.\nLocal do workshop & Computacional: Auditório Sônia Andrade, Pavilhão Aluízio Prata, Instituto Gonçalo Moniz – Fiocruz Bahia, Rua Waldemar Falcão 121, Brotas, Salvador-BA.\nLocal laboratorial: LACEN-BA, Rua Waldemar Falcão, 123 – Horto Florestal, Salvador-BA, 40295-010.\n\n\n\n\n\n\n\n\n\nDia\nPeríodo\nAtividade\nFacilitador\n\n\n\n\n1\nManhã\nWorkshop REVIGET:  08:30–09:00: Credenciamento (MSc. Alex Brito, Dr. Hendor de Jesus)  09:00–09:05: Abertura (Dra. Theolis Bessa)  09:05–09:15: Mesa  09:15–09:45: P1 “Consolidação da REVIGET N/NE…” (Dra. Karla Lima)  09:45–10:00: P2 “Situação da Tuberculose no Brasil e na Bahia” (Dra. Eliana Matos)  10:00–10:15: P3 “Diagnóstico de Micobactérias e NGS” (Dra. Theolis Bessa)  10:15–10:30: Coffee-Break  10:30–10:45: P4 “NGS a partir do Escarro” (Davi Marcon)  10:45–10:55: Q&A (Dra. Theolis Bessa)  10:55–11:00: Encerramento (Dra. Theolis Bessa, Dra. Karla Lima)\nGrupo REVIGET e convidados\n\n\n\nTarde\nInativação da bactéria, extração do DNA e Qubit.\nAlex e Davi\n\n\n2\nManhã\nTeoria (Apresentação Illumina); Prática (normalização do DNA e início do preparo de biblioteca para 16 amostras).\nGustavo (Illumina)\n\n\n\nTarde\nContinuação do preparo de biblioteca para 16 amostras; Finalização e controle de qualidade.\nGustavo\n\n\n3\nManhã\nPreparo de bibliotecas para 10 amostras extras.\nAlex e Davi\n\n\n\nTarde\nDesnaturação do pool de bibliotecas e PhiX; preparo da solução de sequenciamento; configuração do MiSeq e início do sequenciamento.\nAlex e Gustavo\n\n\n4\nManhã\nBioinformática: Introdução a computadores.\nHendor\n\n\n\nTarde\nBioinformática: Pipelines e sessão interativa.\nHendor\n\n\n5\nManhã\nBioinformática: Pipeline MAGMA."
   },
   {
     "objectID": "instituicoes/index.html",
