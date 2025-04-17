@@ -1,5 +1,5 @@
 ---
-title: "Dra. Karla Lima"
+title: "Fale conosco e nos siga :)"
 about: 
   id: contato
   template: solana
@@ -8,29 +8,26 @@ about:
 # page-layout: full
 ---
 
-
-
 :::{#contato}
 
-#### {{< fa envelope >}} &nbsp; reviget@gmail.com
+<div style="text-align: justify">
 
-#### {{< fa phone >}} &nbsp; +55 91 3214-2116
+**Para nos contatar envie e-mail ou contate a coordenadora do projeto - Dra Karla Lima:**
+
+#### {{< fa envelope >}} &nbsp; [reviget@gmail.com](mailto:reviget@gmail.com)
+
+#### {{< fa phone >}} &nbsp; [+55 91 3214-2116](tel:+559132142116)
 
 #### {{< fa map-location-dot >}} &nbsp; Instituto Evandro Chagas - Seção de Bacteriologia, Rodovia BR-316 km 7 s/n - Levilândia, PA, 67030-000, Brazil.
 
-#### {{< fa solid fa-globe >}} &nbsp; https://www.gov.br/iec/pt-br
-
-
-:::
-
-
-```{r}
-#| echo: false
-#| label: make map
-# library(leaflet)
-# leaflet() %>%
-#  addTiles() %>%  # Add default OpenStreetMap map tiles
-#  addMarkers(lng=-1.37327, lat=-48.38528)
-```
+#### {{< fa globe >}} &nbsp; [gov.br/iec](https://www.gov.br/iec/pt-br)
 
 <br>
+
+**Nos siga nas redes sociais para ficar por dentro das nossas atividades:**
+
+#### {{< fa brands twitter >}} &nbsp; [@reviget](https://x.com/reviget)
+
+#### {{< fa brands linkedin >}} &nbsp; [linkedin.com/company/reviget](https://www.linkedin.com/company/reviget)
+
+#### {{< fa brands instagram >}} &nbsp; [@revigetbrasil](https://www.instagram.com/revigetbrasil/)
