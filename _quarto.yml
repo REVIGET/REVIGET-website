@@ -44,6 +44,8 @@ website:
 #        href: dmref/index.qmd
 #      - href: codes/index.qmd
 #        text: Codes
+      - href: eventos/index.qmd
+        text: eventos
       - href: contact.qmd
         text: contato
 

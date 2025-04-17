@@ -1,0 +1,152 @@
+---
+title: EVENTOS de Capacitação E DISSEMINACAO CIENTÍFICA
+format: html
+---
+
+<style>
+body {
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Borda padrão */
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Colunas Dia e Período: borda fina e centralização */
+th:nth-child(1),
+th:nth-child(2),
+td:nth-child(1),
+td:nth-child(2) {
+  border-width: 0.5px;
+  border-color: #ccc;
+  width: 8%;
+  text-align: center;
+}
+
+/* Coluna Atividade: largura maior */
+th:nth-child(3),
+td:nth-child(3) {
+  width: 70%;
+}
+
+/* Coluna Facilitador: restante */
+th:nth-child(4),
+td:nth-child(4) {
+  width: 21%;
+}
+</style>
+
+## ANO 2025
+
+**Webinário - Dia Mudial de Combate à Tuberculose** 31 de março de 2025: Link para a gravação do evento (em andamento).
+
+**Treinamento continuado computacional em Bionformática** - 24 encontros online - em andamento.
+
+
+## ANO 2024
+
+### ESTADO DO AMAZONAS
+
+**Período:** 11 a 14 de novembro de 2024. Feriado no dia 15.
+
+**Dia do Workshop:** 11 de novembro de 2024, das 08:30 às 12:00.
+
+**Local do workshop:** Av. Torquato Tapajós, 4.010 - Col. Santo Antônio, Manaus - AM (Auditório da Fundação de Vigilância em Saúde).
+
+**Local laboratorial:** LACEN-PA: Rua Emílio Moreira 528, Centro, Manaus-AM, 69020-040.
+
+**Local Bioinformática:** EDUCAR-AM.
+
+**Cronograma das atividades:**
+
+| Dia | Período     | Atividade                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Facilitador              |
+|----:|:------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|
+| 1   | Manhã       | **Workshop REVIGET:** Enfrentamento da tuberculose e micobacterioses no SUS com tecnologias de NGS.<br>  08:30–09:00: Credenciamento (MSc. Alex Brito, MSc. Abhinav Sharma)<br>  09:00–09:10: Abertura (Dra. Adriana Ayden)<br>  09:10–09:30: Mesa (Dr. Marco de Oliveira)<br>  09:30–09:45: P1 “O Projeto Consolidação da REVIGET N/NE” (Dra. Karla Lima)<br>  09:45–10:00: P2 “Situação da Tuberculose no Brasil e no Amazonas” (Dr. Maurício Ogusku)<br>  10:00–10:20: P3 “Diagnóstico de Micobactérias e Tecnologias de NGS” (Dra. Emilyn Costa)<br>  10:20–10:50: Coffee-Break<br>  10:50–11:15: P4 “Acelerando o fluxo de diagnóstico por WGS” (Dra. Emilyn Costa)<br>  11:15–11:45: Q&A (Dra. Adriana Ayden & mesa)<br>  11:45–12:00: Encerramento (Dra. Adriana Ayden, Dra. Karla Lima) | Grupo REVIGET e convidados |
+|     | Tarde       | Inativação, extração do DNA micobacteriano e controle de qualidade.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Emilyn                    |
+| 2   | Manhã       | Normalização do DNA e início do preparo de biblioteca.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Emilyn                    |
+|     | Tarde       | Continuação do preparo de biblioteca.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Emilyn                    |
+| 3   | Manhã       | Finalização do preparo de biblioteca e controle de qualidade.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Emilyn                    |
+|     | Tarde       | Início do sequenciamento; introdução a computadores.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Emilyn                    |
+| 4   | Manhã       | Pipelines e sessão interativa no Gitpod; Pipeline MAGMA no Gitpod.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Abhinav                   |
+|     | Tarde       | Execução do Pipeline MAGMA na plataforma Seqera; interpretação de resultados.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Abhinav                   |
+| 5   | Manhã/Tarde | **FERIADO** – Atividade social: visita ao centro histórico de Manaus e ao Teatro Amazonas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Todos                     |
+
+---
+
+### ESTADO DO CEARÁ
+
+**Período:** 18 a 22 de novembro de 2024. Feriado no dia 20.
+
+**Dia do Workshop:** 21 de novembro de 2024, das 08:30 às 12:00.
+
+**Local do workshop:** Auditório da Escola de Saúde Pública, Av. Antônio Justa, 3161 – Meireles, Fortaleza – CE.
+
+**Local laboratorial:** Lacen-Ceará, Av. Barão de Studart, 2405 – Dionísio Torres, Fortaleza – CE.
+
+**Local computacional:** 1º dia: Escola de Saúde Pública; 2º dia: Sala de aula do Programa de Pós‑graduação em Patologia, Dep. de Patologia e Medicina Legal, FM-UFC.
+
+| Dia | Período | Atividade                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Facilitador              |
+|----:|:--------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|
+| 1   | Manhã   | Inativação da bactéria, extração do DNA micobacteriano e controle de qualidade; Normalização do DNA e início do preparo de biblioteca.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Emilyn                    |
+|     | Tarde   | Continuação do preparo de biblioteca.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Emilyn                    |
+| 2   | Manhã   | Continuação do preparo de biblioteca.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Emilyn                    |
+|     | Tarde   | Finalização do preparo de biblioteca e controle de qualidade; início do sequenciamento.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Emilyn                    |
+| 3   | Manhã   | **Workshop REVIGET:**<br>  08:30–09:00: Credenciamento (MSc. Alex Brito, MSc. Thiago Brasil)<br>  09:00–09:10: Abertura (Dra. Cristiane Frota)<br>  09:10–09:30: Mesa (Dra. Cristiane Frota)<br>  09:30–09:45: P1 “Consolidação da REVIGET N/NE” (Dra. Cristiane Frota)<br>  09:45–10:00: P2 “Situação da Tuberculose no Brasil e no Ceará” (Dr. Carlos Garcia Filho)<br>  10:00–10:20: P3 “Diagnóstico de Micobactérias e Tecnologias de NGS” (Dra. Emilyn Costa)<br>  10:20–10:50: Coffee-Break<br>  10:50–11:15: P4 “Acelerando o fluxo de diagnóstico por WGS” (Dra. Emilyn Costa)<br>  11:15–11:45: Q&A (Dra. Cristiane Frota & mesa)<br>  11:45–12:00: Encerramento (Dra. Cristiane Frota) | Grupo REVIGET e convidados |
+|     | Tarde   | Início aos computadores; Pipeline MAGMA no Gitpod e Google Cloud.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Abhinav                   |
+| 4   | Manhã   | Pipeline MAGMA no Google Cloud pela plataforma Seqera.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Abhinav                   |
+|     | Tarde   | Interpretação dos resultados de MAGMA.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Abhinav / Emilyn          |
+
+---
+
+### ESTADO DO PARÁ
+
+**Período:** 25 a 29 de novembro de 2024.
+
+**Dia do Workshop:** 29 de novembro de 2024, das 08:30 às 12:00.
+
+**Local do workshop & Treinamento Laboratorial:** Av. Augusto Montenegro, 524 – Parque Guajará, Belém‑PA (Auditório LACEN‑PA).
+
+| Dia            | Período | Atividade                                                                                                                                                                                                                                                                                                                                                                              | Facilitador              |
+|---------------:|:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|
+| 25   | Manhã   | Inativação, extração do DNA micobacteriano e controle de qualidade.                                                                                                                                                                                                                                                                                                                       | Davi e Alex               |
+| 26     | Manhã   | Normalização do DNA e início do preparo de biblioteca (tagmentação, limpeza pós‑tagmentação e amplificação).                                                                                                                                                                                                                                                                               | Davi e Alex               |
+| 27    | Manhã   | Continuação do preparo de bibliotecas: limpeza, controle de qualidade (Qubit e LabChip).                                                                                                                                                                                                                                                                                                  | Davi e Alex               |
+| 28    | Manhã   | Início do sequenciamento: diluição das bibliotecas para 4 nM, pool, desnaturação e diluição com PhiX; configuração do MiSeq e início do sequenciamento.                                                                                                                                                                                                                                 | Davi e Alex               |
+| 29     | Manhã   | **Workshop REVIGET:**<br>  08:30–09:00: Credenciamento (MSc. Alex Brito, MSc. Emilly Dias)<br>  09:00–09:05: Abertura (Dra. Karla Lima)<br>  09:05–09:15: Mesa<br>  09:15–09:45: P1 “Consolidação da REVIGET N/NE…” (Dra. Karla Lima)<br>  09:45–10:00: P2 “Situação da Tuberculose no Brasil e no Pará” (Dr. Carlos Albério)<br>  10:00–10:15: P3 “Diagnóstico de Micobactérias e NGS” (Dra. Karla Lima)<br>  10:15–10:30: Coffee-Break<br>  10:30–10:45: P4 “NGS a partir do Escarro” (Davi Marcon)<br>  10:45–10:55: Q&A (Dra. Karla Lima)<br>  10:55–11:00: Encerramento (Dra. Karla Lima) | Grupo REVIGET e convidados |
+
+---
+
+### ESTADO DA BAHIA
+
+**Período:** 02 a 06 de dezembro de 2024.
+
+**Dia do Workshop:** 02 de dezembro de 2024, das 08:30 às 12:00.
+
+**Local do workshop & Computacional:** Auditório Sônia Andrade, Pavilhão Aluízio Prata, Instituto Gonçalo Moniz – Fiocruz Bahia, Rua Waldemar Falcão 121, Brotas, Salvador-BA.
+
+**Local laboratorial:** LACEN-BA, Rua Waldemar Falcão, 123 – Horto Florestal, Salvador-BA, 40295-010.
+
+| Dia | Período | Atividade                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Facilitador              |
+|----:|:--------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|
+| 1   | Manhã   | **Workshop REVIGET:**<br>  08:30–09:00: Credenciamento (MSc. Alex Brito, Dr. Hendor de Jesus)<br>  09:00–09:05: Abertura (Dra. Theolis Bessa)<br>  09:05–09:15: Mesa<br>  09:15–09:45: P1 “Consolidação da REVIGET N/NE…” (Dra. Karla Lima)<br>  09:45–10:00: P2 “Situação da Tuberculose no Brasil e na Bahia” (Dra. Eliana Matos)<br>  10:00–10:15: P3 “Diagnóstico de Micobactérias e NGS” (Dra. Theolis Bessa)<br>  10:15–10:30: Coffee-Break<br>  10:30–10:45: P4 “NGS a partir do Escarro” (Davi Marcon)<br>  10:45–10:55: Q&A (Dra. Theolis Bessa)<br>  10:55–11:00: Encerramento (Dra. Theolis Bessa, Dra. Karla Lima) | Grupo REVIGET e convidados |
+|     | Tarde   | Inativação da bactéria, extração do DNA e Qubit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Alex e Davi               |
+| 2   | Manhã   | Teoria (Apresentação Illumina); Prática (normalização do DNA e início do preparo de biblioteca para 16 amostras).                                                                                                                                                                                                                                                                                                                                                                                                         | Gustavo (Illumina)        |
+|     | Tarde   | Continuação do preparo de biblioteca para 16 amostras; Finalização e controle de qualidade.                                                                                                                                                                                                                                                                                                                                                                                                                              | Gustavo                   |
+| 3   | Manhã   | Preparo de bibliotecas para 10 amostras extras.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Alex e Davi               |
+|     | Tarde   | Desnaturação do pool de bibliotecas e PhiX; preparo da solução de sequenciamento; configuração do MiSeq e início do sequenciamento.                                                                                                                                                                                                                                                                                                                                                                                        | Alex e Gustavo            |
+| 4   | Manhã   | Bioinformática: Introdução a computadores.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Hendor                    |
+|     | Tarde   | Bioinformática: Pipelines e sessão interativa.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Hendor                    |
+| 5   | Manhã   | Bioinformática: Pipeline MAGMA.  
