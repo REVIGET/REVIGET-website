@@ -46,7 +46,7 @@ website:
 #        text: Codes
       - href: eventos/index.qmd
         text: eventos
-      - href: contact.qmd
+      - href: contato.qmd
         text: contato
 
   sidebar:
