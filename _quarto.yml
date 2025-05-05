@@ -37,6 +37,8 @@ website:
         text: instituições
       - href: people/index.qmd
         text: pessoas
+      - href: capacitacao/index.qmd
+        text: capacitação
 #      - href: sites/index.qmd
 #        text: locais
       - href: publications/index.qmd
