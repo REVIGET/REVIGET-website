@@ -47,7 +47,7 @@ Farmacêutica com atuação nas áreas de Biologia Molecular e Análises Clínic
 ::: {.card}
 <img src="images/layssacb.jpeg" style="float: left; width: 25%; margin-right: 15px;" />
 **Layssa do Carmo Barroso**  
-Graduanda em Farmácia pela UFAM e bolsista na Fiocruz Amazônia. Atua com isolamento e sequenciamento genômico de M. tuberculosis.
+Biomédica especialista em microbiologia Clínica, Epidemiologia de Campo e mestre em saúde pública. Servidora do Laboratório Central de Saúde Pública da Fundação de Vigilância em Saúde do Amazonas (FVS-AM).
 :::
 
 ::: {.card}
@@ -172,7 +172,7 @@ Possui graduação em Farmácia pela Universidade Federal do Ceará (2004); Espe
 ::: {.card}
 <img src="images/dannakcs.jpeg" style="float: left; width: 25%; margin-right: 15px;" />
 **Danna Karen Corrêa dos Santos**  
-Farmacêutico Bioquímico pela Universidade Federal da Bahia (UFBA), Especialização em Saúde Coletiva (ISC/UFBA). Sanitarista (ESPBA) e Mestrado (Fiocruz/Ba). Atuando no Laboratório de Micobacteriologia do LACEN/BA e no Laboratório Central do Hospital das Clínicas da Universidade Federal da Bahia (HUPES/UFBA) tem experiência no diagnóstico laboratorial de doenças de interesse da Saúde Pública.
+Danna é graduada em Biomedicina pela Universidade do Estado do Pará (UEPA) e foi bolsista de iniciação científica no Instituto Evandro Chagas (IEC). Possui experiência em simulação computacional aplicada à resistência bacteriana, com foco em M. tuberculosis, apoio em bioinformática e em análises microbiológicas focadas na detecção e caracterização de bactérias patogênicas. Além disso, atuou em inquérito de representatividade nacional, contribuindo para estudo sócio epidemiológico avaliando o quadro clínico e os recursos diagnósticos e terapêuticos disponíveis para pacientes atendidos em Hospital Universitário (HU). Atualmente é acadêmica de mestrado do programa de pós-graduação Biologia Parasitária na Amazônia (BPA) da UEPa.
 :::
 
 ::: {.card}
