@@ -120,6 +120,13 @@
     "items": []
   },
   {
+    "listing": "/disseminacao/index.html",
+    "items": [
+      "/disseminacao/001-equipe/index.pt.html",
+      "/disseminacao/002-social-media/index.pt.html"
+    ]
+  },
+  {
     "listing": "/dmref/people/index.html",
     "items": []
   },
