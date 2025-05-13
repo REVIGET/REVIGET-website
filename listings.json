@@ -116,7 +116,11 @@
     "items": []
   },
   {
-    "listing": "/dmref/publications/index.html",
+    "listing": "/instituicoes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/dmref/people/index.html",
     "items": []
   },
   {
@@ -127,11 +131,11 @@
     ]
   },
   {
-    "listing": "/dmref/people/index.html",
+    "listing": "/dmref/publications/index.html",
     "items": []
   },
   {
-    "listing": "/instituicoes/index.html",
+    "listing": "/novidades/index.html",
     "items": []
   },
   {
