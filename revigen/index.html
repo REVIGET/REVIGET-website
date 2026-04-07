@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publicações – REVIGET Consortium</title>
+<title>REVIGEN – REVIGET Consortium</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/favicon.reviget.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,69 +70,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta name="twitter:title" content="Publicações – REVIGET Consortium">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="REVIGEN – REVIGET Consortium">
+<meta name="twitter:image" content="https://reviget.org/revigen/revigen.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -171,11 +112,11 @@ window.Quarto = {
 <span class="menu-text">capacitação</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../revigen/index.html"> 
+    <a class="nav-link active" href="../revigen/index.html" aria-current="page"> 
 <span class="menu-text">revigen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../publications/index.html" aria-current="page"> 
+    <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
@@ -197,20 +138,34 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#revigen" id="toc-revigen" class="nav-link active" data-scroll-target="#revigen">REVIGEN</a>
+  <ul class="collapse">
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link" data-scroll-target="#o-que-é">O que é?</a></li>
+  </ul></li>
+  <li><a href="#formulários" id="toc-formulários" class="nav-link" data-scroll-target="#formulários">Formulários</a>
+  <ul class="collapse">
+  <li><a href="#entre-no-nosso-radar" id="toc-entre-no-nosso-radar" class="nav-link" data-scroll-target="#entre-no-nosso-radar">Entre no Nosso Radar!</a></li>
+  <li><a href="#interesse-em-turma-especial-de-pós-graduação" id="toc-interesse-em-turma-especial-de-pós-graduação" class="nav-link" data-scroll-target="#interesse-em-turma-especial-de-pós-graduação">Interesse em Turma Especial de Pós-Graduação?</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publicações</h1>
+<h1 class="title">REVIGEN</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -222,21 +177,54 @@ window.Quarto = {
 </header>
 
 
+<p><img src="revigen.png" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
+<section id="revigen" class="level2" style="text-align: justify">
+<h2 class="anchored" data-anchor-id="revigen">REVIGEN</h2>
+<section id="o-que-é" class="level3">
+<h3 class="anchored" data-anchor-id="o-que-é">O que é?</h3>
+<p>O REVIGEN (Rede Genômica para Medicina de Precisão e Vigilância de Doenças Infecciosas de Alta Prevalência) é uma iniciativa estratégica voltada à consolidação de uma rede colaborativa no Norte e Nordeste do Brasil, com foco na integração de tecnologias genômicas à saúde pública.</p>
+<p>Elaborado com base na experiência e nos avanços do REVIGET (Rede de Vigilância Epidemio-Genômica da Tuberculose), o projeto amplia esse modelo para diferentes patógenos de relevância em saúde pública.</p>
+<p>O REVIGEN reúne instituições de pesquisa, laboratórios centrais (LACENs) e serviços de saúde para fortalecer a capacidade de diagnóstico, vigilância e resposta a doenças infecciosas de grande impacto, como tuberculose, infecções bacterianas resistentes, vírus emergentes, fungos e parasitas.</p>
+<p>Por meio do uso de sequenciamento de nova geração (NGS), bioinformática e análise integrada de dados clínicos, epidemiológicos e espaciais, o REVIGEN promove a medicina de precisão e a tomada de decisão baseada em evidências. A iniciativa também prioriza a formação de recursos humanos, a equidade regional e a sustentabilidade das ações no Sistema Único de Saúde (SUS), contribuindo para a modernização da vigilância em saúde e o enfrentamento de ameaças infecciosas no século XXI.</p>
+<p><strong>Interessado em Participar? Preencha o formulário a Seguir</strong></p>
+</section>
+</section>
+<hr>
+<section id="formulários" class="level2">
+<h2 class="anchored" data-anchor-id="formulários">Formulários</h2>
+<section id="entre-no-nosso-radar" class="level3">
+<h3 class="anchored" data-anchor-id="entre-no-nosso-radar">Entre no Nosso Radar!</h3>
 <div style="text-align: justify">
-<p><strong>Artigo 1</strong> | 🔗 <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1514862/full">Acesse o artigo aqui</a></p>
-<p>Marcon DJ, Sharma A, Souza AB, Barros RB, Andrade VDGD, Guimarães RJPS, Lima LNG, Monteiro LHMT, Quaresma AJPG, Ribeiro LR, Suffys PN, Warren RM, Alberio CAA, Lima KVB, Conceição EC. <em>Comprehensive genomic surveillance reveals transmission profiles of extensively drug-resistant tuberculosis cases in Pará, Brazil</em>. <em>Front Microbiol</em>. 2025 Jan 22;15:1514862. PMID 39911713; PMC11794272.</p>
+<div class="card">
+<p><img src="revigen-radar.png" style="float: left; width: 25%; margin-right: 15px;"> <strong>📢 Gostou da palestra?</strong></p>
+<p>Gostaríamos de contar com a sua presença nos próximos encontros e compartilhar mais sobre as iniciativas da Revigen.</p>
+<p>Preencha o formulário para:</p>
+<ul>
+<li>Garantir sua participação em futuras atividades</li>
+<li>Receber conteúdos exclusivos</li>
+<li>Saber mais sobre a pós-graduação Revigen</li>
+</ul>
+<p>📝 Acesse o Formulário: https://forms.gle/q2jm85YrsYsuAm3Z6</p>
+</div>
 </div>
 <hr>
+</section>
+<section id="interesse-em-turma-especial-de-pós-graduação" class="level3">
+<h3 class="anchored" data-anchor-id="interesse-em-turma-especial-de-pós-graduação">Interesse em Turma Especial de Pós-Graduação?</h3>
+<div style="text-align: justify">
+<div class="card">
+<p><img src="consultaposgrad.jpeg" style="float: left; width: 25%; margin-right: 15px;"> <strong>📢 Consulta Pública de Interesse – Turma Especial de Pós-Graduação (Mestrado/Doutorado)</strong></p>
+<p>A Rede REVIGEN, está realizando uma consulta pública de interesse para identificar profissionais que tenham interesse em participar de uma Turma Especial de Pós-Graduação (Mestrado ou Doutorado), vinculada ao Programa de Pós-Graduação em Biologia Parasitária na Amazônia (UEPA/IEC), voltada a profissionais inseridos a instituições de saúde, principalmente nas regiões Norte e Nordeste do Brasil.</p>
+<p>⚠️ O preenchimento do formulário não caracteriza inscrição no processo seletivo, servindo apenas para mapear o interesse e apoiar o planejamento de uma futura chamada.</p>
+<p>📝 Formulário: https://docs.google.com/forms/d/e/1FAIpQLSdjOfh2Q1Cqk1_LQ_idd2kfKxMHhGPDkCkE468V4_qI-2FmPA/viewform?usp=sharing&amp;ouid=115114221060280954567</p>
+<p>📅 Prazo para preenchimento: até o dia 06/05/2026.</p>
+</div>
+</div>
 <hr>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 
 
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

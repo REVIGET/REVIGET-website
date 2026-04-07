@@ -4,27 +4,27 @@
     "items": []
   },
   {
-    "listing": "/people/warren-rob/index.html",
+    "listing": "/publications/index.html",
     "items": []
   },
   {
-    "listing": "/people/sharma-abhinav/index.html",
+    "listing": "/people/suffys-philip/index.html",
     "items": []
   },
   {
-    "listing": "/people/sancho-soraya/index.html",
+    "listing": "/people/santos-danna/index.html",
     "items": []
   },
   {
-    "listing": "/people/quaresma-ana/index.html",
+    "listing": "/people/ribeiro-layana/index.html",
     "items": []
   },
   {
-    "listing": "/people/pantoja-jose/index.html",
+    "listing": "/people/pereira-felicidade/index.html",
     "items": []
   },
   {
-    "listing": "/people/oliveira-marco/index.html",
+    "listing": "/people/oliveira-tulio/index.html",
     "items": []
   },
   {
@@ -56,70 +56,7 @@
     "items": []
   },
   {
-    "listing": "/people/freitas-lilian/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/duarte-tonya/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/costa-emilyn/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/brasil-thiago/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/barros-rafaella/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/andrade-valnete/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/alberio-carlos/index.html",
-    "items": []
-  },
-  {
-    "listing": "/instituicoes/index.html",
-    "items": []
-  },
-  {
-    "listing": "/dmref/publications/index.html",
-    "items": []
-  },
-  {
-    "listing": "/disseminacao/index.html",
-    "items": [
-      "/disseminacao/001-social-media/index.pt.html",
-      "/disseminacao/002-equipe/index.pt.html"
-    ]
-  },
-  {
-    "listing": "/dmref/people/index.html",
-    "items": []
-  },
-  {
-    "listing": "/novidades/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/amador-emmily/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/barreto-leonardo/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/bessa-theolis/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/brito-alex/index.html",
+    "listing": "/people/ferreira-adriana/index.html",
     "items": []
   },
   {
@@ -127,7 +64,55 @@
     "items": []
   },
   {
-    "listing": "/people/ferreira-adriana/index.html",
+    "listing": "/people/brito-alex/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/bessa-theolis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/barreto-leonardo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/amador-emmily/index.html",
+    "items": []
+  },
+  {
+    "listing": "/instituicoes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/dmref/people/index.html",
+    "items": []
+  },
+  {
+    "listing": "/dmref/publications/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/alberio-carlos/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/andrade-valnete/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/barros-rafaella/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/brasil-thiago/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/costa-emilyn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/duarte-tonya/index.html",
     "items": []
   },
   {
@@ -160,10 +145,7 @@
       "/people/barros-rafaella/index.html",
       "/people/guimaraes-ricardo/index.html",
       "/people/andrade-valnete/index.html",
-      "/people/ferreira-adriana/index.html",
-      "/people/freitas-lilian/index.html",
       "/people/junior-walter/index.html",
-      "/people/oliveira-marco/index.html",
       "/people/brasil-thiago/index.html",
       "/people/sancho-soraya/index.html",
       "/people/gomez-marcela/index.html",
@@ -180,6 +162,7 @@
       "/people/barreto-leonardo/index.html",
       "/people/lourenco-cristina/index.html",
       "/people/suffys-philip/index.html",
+      "/people/ferreira-adriana/index.html",
       "/people/frota-cristiane/index.html",
       "/people/bessa-theolis/index.html"
     ]
@@ -201,27 +184,23 @@
     "items": []
   },
   {
-    "listing": "/people/oliveira-tulio/index.html",
+    "listing": "/people/pantoja-jose/index.html",
     "items": []
   },
   {
-    "listing": "/people/pereira-felicidade/index.html",
+    "listing": "/people/quaresma-ana/index.html",
     "items": []
   },
   {
-    "listing": "/people/ribeiro-layana/index.html",
+    "listing": "/people/sancho-soraya/index.html",
     "items": []
   },
   {
-    "listing": "/people/santos-danna/index.html",
+    "listing": "/people/sharma-abhinav/index.html",
     "items": []
   },
   {
-    "listing": "/people/suffys-philip/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/index.html",
+    "listing": "/people/warren-rob/index.html",
     "items": []
   }
 ]
