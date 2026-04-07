@@ -80,7 +80,11 @@
     "items": []
   },
   {
-    "listing": "/instituicoes/index.html",
+    "listing": "/novidades/index.html",
+    "items": []
+  },
+  {
+    "listing": "/dmref/publications/index.html",
     "items": []
   },
   {
@@ -88,7 +92,7 @@
     "items": []
   },
   {
-    "listing": "/dmref/publications/index.html",
+    "listing": "/instituicoes/index.html",
     "items": []
   },
   {
